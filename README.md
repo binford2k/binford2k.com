@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+# Soot Spirits Jekyll Theme
 
-You can use the [editor on GitHub](https://github.com/binford2k/binford2k.com/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Soot Spirits is a responsive mobile ready lightweight two column Jekyll theme made with Bulma CSS. It is a great template for simple personal blogs with focus on typography.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![mobile](tmp/mobile.png)
 
-### Markdown
+The text is made beautiful with combination of [League Gothic](https://www.fontsquirrel.com/fonts/league-gothic), [Roboto](https://fonts.google.com/specimen/Roboto) and [Open Sans](https://fonts.google.com/specimen/Open+Sans). Now who doesn't love them.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![text](tmp/langslide.gif)
 
-```markdown
-Syntax highlighted code block
+### Demo
+[sootspirits.github.io](https://sootspirits.github.io)
 
-# Header 1
-## Header 2
-### Header 3
+### Some Good Features
 
-- Bulleted
-- List
+- Fully mobile ready
+- Beautiful typography
+- Two column layout suitable for a wide range of blogging habits
+- Fully customisable theme including the 'hello' text, quotes, nav items and sidebar widgets
 
-1. Numbered
-2. List
+### Screenshots
+##### Deskop browser (full width)
+![fullwidth](tmp/fullwidth.png)
 
-**Bold** and _Italic_ and `Code` text
+##### Tablet browser (iPad)
+![tab](tmp/ipad.png)
 
-[Link](url) and ![Image](src)
-```
+##### Mobile browser (320px and greater)
+![mobile](tmp/mobile.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+##### Hamburger menu toggle
+![hamburger](tmp/hamburger.gif)
 
-### Jekyll Themes
+##### Basic navigation and footer
+![navi](tmp/navi.gif)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/binford2k/binford2k.com/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Theme Usage
 
-### Support or Contact
+- [Get started](https://jekyllrb.com/docs/installation/) with having the necessary tools set up
+- Download the zip of this project or simple clone it
+- Delete the ```tmp/``` directory and any sample ```_posts```
+- Customize the variables in ```_config.yml``` file such that it reflects your information. Similarly, change the disqus username (or remove it altogether).
+- Replace footer links in the ```_layouts/default.html``` file with yours.
+- Replace the ```site:example.com``` in ```assets/js/custom.js``` with your site's address.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Credits
+- [Codepen hi-im-si](http://codepen.io/hi-im-si/pen/DHoup) for the header 'hello' typewriter text
+- [Bulma CSS](bulma.io/)
+- [Jekyll](https://jekyllrb.com)
+- [Github](https://github.com)
+
+### Licence
+MIT
+
+
+### What's up with the name?
+I was watching [My Neighbour Totoro](https://en.wikipedia.org/wiki/Susuwatari) while developing :-)

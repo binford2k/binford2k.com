@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="box">
+    <span class="post-source"><a href="{{ site.viewsourceroot }}{{ page.path }}"><i class="fa fa-github" aria-hidden="true" title="Github"></i></a></span>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">{{ page.date | date: "%A %-d %B, %Y." }} <a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></div>
+    <div class="post-tags">
+    {% for tag in page.tags %}
+      <span class="post-tag"><a href="{{ site.baseurl }}/tags#{{ tag }}-ref">{{ tag }}</a></span>
+    {% endfor %}
+    </div>
+
+    <span class="post-text">{{ content }}</span>
+    {% include post-pagination.html %}
+</div>
+
+<!--<div class="box">-->
+    <!-- google ads code box -->
+<!--</div>-->
+
+{% include JB/comments %}

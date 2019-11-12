@@ -1,0 +1,53 @@
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css"/>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bulma.css"/>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | relative_url }}" type="text/css">
+
+  <style>
+    @font-face {
+      font-family: 'dag';
+      src: url('{{ site.baseurl }}/assets/css/dag.eot?33773300');
+      src: url('{{ site.baseurl }}/assets/css/dag.eot?33773300#iefix') format('embedded-opentype'),
+           url('{{ site.baseurl }}/assets/css/dag.woff?33773300') format('woff'),
+           url('{{ site.baseurl }}/assets/css/dag.ttf?33773300') format('truetype'),
+           url('{{ site.baseurl }}/assets/css/dag.svg?33773300#dag') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+    .icon-puppet {
+      font-family: "dag";
+      font-style: normal;
+      font-weight: bold;
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      margin-right: .2em;
+      text-align: center;
+    }
+  </style>
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+
+</head>
