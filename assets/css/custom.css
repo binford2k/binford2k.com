@@ -146,6 +146,10 @@ a {
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
+ul {
+  list-style: initial;
+}
+
 @media screen and (max-width: 768px) {
   .pagination {
     flex-wrap: nowrap;
