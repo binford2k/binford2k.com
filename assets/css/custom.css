@@ -90,15 +90,14 @@ h1.title > span {
   box-shadow: 0 1px 2px rgba(10, 10, 10, 0.1);
   padding-bottom: 0.25em;
   margin-bottom: 0.5em;
+  font-size: small;
 }
 
-.tag_box li,
 .post-tag {
   border: 1px solid #ccc;
-  border-radius: 2px;
-  padding: 0 2px;
+  border-radius: 0.25em;
+  padding: 0 0.25em;
   background-color: #fafafa;
-  font-size: 0.75em;
 }
 
 .post-text {
@@ -109,15 +108,31 @@ h1.title > span {
     margin-bottom: 1em;
 }
 
-.tag_box li {
-  list-style-type: none;
-  display: inline;
+.tag_box {
+  font-size: small;
+  font-weight: bold;
+}
+
+.tag_box li a {
+  padding: 4px;
 }
 .tag_box li a span {
-  background-color: #fcfcfc;
-  border-left: 1px solid #ccc;
-  border-radius: 5px;
-  padding-left: 2px;
+  background-color: rgba(252, 252, 252, 0.22);
+  border: 1px solid #ccc;
+  border-radius: 25%;
+  padding: 0.15em 0.25em;
+  margin-left: 0.5em;
+}
+.tag_box li a span:hover {
+  color: black;
+}
+
+.tag_group {
+  display: none;
+}
+
+i.center {
+  vertical-align: baseline;
 }
 
 /* sorry God. Just once */

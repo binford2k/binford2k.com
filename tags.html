@@ -3,17 +3,41 @@ layout: page
 header: Posts By Tag
 group: navigation
 ---
+<script src="{{ site.baseurl }}/assets/js/jquery.prettytag.js"></script>
 {% include JB/setup %}
 <ul class="tag_box inline">
-  {% assign tags_list = site.tags %}
-  {% include JB/tags_list %}
+{% for tag in site.tags %}
+	<li><a href="#{{ tag[0] }}-ref" data-count="{{tag[1].size}}">{{ tag[0] }}</a></li>
+{% endfor %}
 </ul>
 
-
 {% for tag in site.tags %}
+<div class="tag_group">
   <h2 class="nice-title" id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
   <ul>
     {% assign pages_list = tag[1] %}
     {% include JB/pages_list %}
   </ul>
+</div>
 {% endfor %}
+
+<script>
+  $(document).ready(function(){
+    $(".tag_box").prettyTag();
+
+    $(".tag_box a").click(function(e){
+      e.preventDefault();
+      var ref = this.href.split("#")[1];
+
+      $(".tag_group").hide();
+      $("#" + ref).parent(".tag_group").show();
+    });
+
+    // show the right group if we loaded the page with it
+    var ref = window.location.href.split("#")[1];
+    if (ref != "") {
+      $("#" + ref).parent(".tag_group").show();
+    }
+
+  });
+</script>
