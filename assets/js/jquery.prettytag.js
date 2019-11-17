@@ -49,7 +49,7 @@
 
         // logarithmic scale between 1em and 1.5em;
         var minp = 1;
-        var maxp = 1.5;
+        var maxp = 2;
         var minv = Math.log(min);
         var maxv = Math.log(max);
         var scale = (maxv-minv) / (maxp-minp);
