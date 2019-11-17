@@ -6,8 +6,6 @@ category:
 tags: ["puppet", "development"]
 ---
 
-# Agent Side Functions in Puppet 6
-
 Puppet 6 introduced _Deferred functions_, a new feature that allows you to run code on the agent side during enforcement. This is both functionality that people have been requesting for ages, and also behaviour that many people already mistakenly assumed existed. As a matter of fact, the Puppet execution model isn't very well understood at all and many people already think they're using Puppet like a shell script engine!
 
 So first, let's take a quick look at how the catalog gets built and enforced. There are a few stages we need to understand.
