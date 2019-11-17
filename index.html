@@ -1,6 +1,17 @@
 ---
 layout: page
 ---
+
+{% for post in site.posts %}
+  {% if post.pinned %}
+    <div class="post pinned">
+        <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+        <a class="nice-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <p class="nice-text">{{ post.content | strip_html | truncatewords: 50 }} <a href="{{ post.url | relative_url }}">Read more…</a></p>
+    </div>
+  {% endif %}
+{% endfor %}
+
 <ul class="posts">
     {% for post in paginator.posts %}
     <li class="post">

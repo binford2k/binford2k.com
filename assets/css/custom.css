@@ -50,6 +50,16 @@ h1.title > span {
     list-style-type: none;
 }
 
+.post.pinned {
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  background-color: #fdfdfd;
+  padding: 0.25em;
+}
+.post.pinned i {
+  float: right;
+}
+
 .nice-title {
     font-size: larger;
     font-weight: 400;
@@ -75,6 +85,14 @@ h1.title > span {
 .post-title {
     font-size: x-large;
     font-family: Roboto, sans-serif;
+}
+
+.post-image {
+  float: left;
+  padding: 0.25em;
+  margin: 0 1em 1em 0;
+  border: 1px solid #ccc;
+  border-radius: 0.25em;
 }
 
 .post-source {
@@ -104,13 +122,50 @@ h1.title > span {
     font-family: "Open Sans", sans-serif;
 }
 
-.post-text > p {
+.post-text p {
     margin-bottom: 1em;
 }
 
+.post-text img {
+  padding: 0.25em;
+  margin: 0.25em;
+  border: 1px solid #ccc;
+  border-radius: 0.25em;
+}
+.post-text img.rightside {
+  float: right;
+}
+.post-text img.leftside {
+  float: left;
+}
+
+.post-text blockquote {
+  margin-left: 1em;
+  padding-left: 0.25em;
+  border-left: 4px solid #ccc;
+  background-color: #f7f7f7;
+}
+
+.post-text blockquote p:first-child:before,
+.post-text blockquote p:last-child:after {
+  font-family: "FontAwesome";
+}
+
+.post-text blockquote :first-child:before {
+  float: left;
+  content: "\f10d";
+  margin-right: 2px;
+}
+.post-text blockquote p:last-child:after {
+  float: right;
+  content: "\f10e";
+}
+
+
 .tag_box {
-  font-size: small;
+  font-size: 0.65em;
   font-weight: bold;
+  text-align: center;
 }
 
 .tag_box li a {

@@ -12,6 +12,9 @@ layout: default
     {% endfor %}
     </div>
 
+    {% if page.image %}
+    <div class="post-image"><img src="{{ site.baseurl }}/assets/images/{{ page.image }}" /></div>
+    {% endif %}
     <div class="post-text">{{ content }}</div>
     {% include post-pagination.html %}
 </div>
