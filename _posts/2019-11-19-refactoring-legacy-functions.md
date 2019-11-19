@@ -26,7 +26,7 @@ By now, I hope that I've convinced you that it's worth upgrading your modules. S
 Let's start by looking at the signature and syntax of a legacy Ruby function:
 
 
-```
+``` ruby
 # <MODULE>/lib/puppet/parser/functions/strlen.rb
 module Puppet::Parser::Functions
   newfunction(:strlen,
@@ -47,7 +47,7 @@ This function definition required you to specify an arcane `type` parameter defi
 Instead, the modern version of this same function would look like this:
 
 
-```
+``` ruby
 # <MODULE>/lib/puppet/functions/mymod/strlen.rb
 # @summary
 #   Just a naive strlen example
@@ -87,7 +87,7 @@ The process of porting is fairly straightforward. First you'll want to identify 
 Let's look at the legacy function again, annotated with the parts we care about.
 
 
-```
+``` ruby
 # <MODULE>/lib/puppet/parser/functions/strlen.rb
 module Puppet::Parser::Functions
   newfunction(:strlen,                                         # definition/name
@@ -107,7 +107,7 @@ end
 All the rest is just boilerplate. Now we'll need to infer the function signature(s). The logic in the argument validation and handling tells us that we handle only a single case: the function will only accept one string argument. Let's write that as a dispatch.
 
 
-```
+``` ruby
 dispatch :default_impl do
   param 'String', :value
 end
@@ -118,12 +118,10 @@ The `:default_impl` name is an arbitrary label. It tells Puppet which method to 
 
 Then in the dispatch, we use one or more `param` calls to describe the function signature. Here, we only call it once, so this dispatch will only match a single `String` argument. Notice that we _quote the type name_ so that it's not evaluated as a type by the parser. We also provide a name for each parameter to be used in generated documentation and help output.
 
-The API handles all the other validation for us, so we're done inferring the signature and can
-
-move on to the implementation. We named it `default_impl()` already, so let's write that method:
+The API handles all the other validation for us, so we're done inferring the signature and can move on to the implementation. We named it `default_impl()` already, so let's write that method:
 
 
-```
+``` ruby
 def default_impl(value)
   value.length
 end
@@ -133,7 +131,7 @@ end
 Now let's put the parts together and construct the new function. Generally speaking, our function will be in a module, so we'll also namespace the new function name to include the name of the module. Make sure to reflect that in the path as well.
 
 
-```
+``` ruby
 # <MODULE>/lib/puppet/functions/mymod/strlen.rb
 Puppet::Functions.create_function(:'mymod::strlen') do   # definition/name
   dispatch :default_impl do
