@@ -20,7 +20,7 @@ So first, let's take a quick look at how the catalog gets built and enforced. Th
 ![Data flow during catalog compilation](/assets/images/DataFlowNodesJson.png "Data flow during catalog compilation.")
 
 
-The key point to understand about this model is that only static data is exchanged between the master and the agent. For example, the catalog is a simple JSON document that simply lists out resources that should exist and the properties they should have. See the simplified example below (note that some elements have been omitted for readability.)
+The key point to understand about this model is that only static data is exchanged between the master and the agent. For example, the catalog is a static JSON document that simply lists out resources that should exist and the properties they should have. See the simplified example below (note that some elements have been omitted for readability.)
 
 
 ``` json
@@ -36,9 +36,9 @@ $ jq '.resources[] | select(.type == "Service" and .title == "pxp-agent")' catal
 ```
 
 
-There's no way to tell what code or logic was used to generate this, and there's no way to make conditional decisions based on this other than anything built into the resource type itself. Functions that run during compilation don't show up in the catalog at all!
+There's no way to tell what code or logic was used to generate this, and there's no way to make conditional decisions based on this resource other than just standard resource relationships. For example, you cannot run an `exec` command to perform some kind of initialization process if a `service` resource fails to start properly. Functions that ran during compilation don't show up in the catalog at all!
 
-People often want to use `exec` resources to generate values or for conditional logic. But as you can see here, they're just another resource with parameters that describe their desired state. The results aren't known at compile time, so they cannot be used for logic.
+People often want to use `exec` resources to generate values or for conditional logic. But as you can see here, they're just another resource with parameters that describe their desired state. The results aren't known at compile time, so they cannot be used in conditional statements in your Puppet code.
 
 
 ``` json
@@ -56,7 +56,7 @@ $ jq '.resources[] | select(.type == "Exec" and .title == "tunnelblick autoupdat
 ```
 
 
-This is designed for consistency and predictability. By looking at the catalog, you **_know_** that the `pxp-agent` service is running and will start on bootup. Shell scripts, or other evaluated code, don't have this property. Instead the end state depends on a monumentally complex intersection of preconditions and assumptions. In a nutshell, having provable end states is why many auditors accept Puppet catalogs and/or reports as valid proof of compliance.
+This is designed for consistency and predictability. By looking at the catalog, you **_know_** that after it's been enforced that the `pxp-agent` service will be running and will start on bootup. Shell scripts, or other evaluated code, don't have this property. Instead the end state depends on a monumentally complex intersection of preconditions and assumptions. In a nutshell, having provable end states is why many auditors accept Puppet catalogs and/or reports as valid proof of compliance.
 
 So why would we want to build in the ability to run functions on the agent during enforcement? Didn't we just say that lacking this ability makes the catalogs more provable? That would be true if we were talking about unchecked agent-side execution. We're not, however. There are tight constraints on what you can do with Deferred functions.
 
@@ -65,11 +65,17 @@ So why would we want to build in the ability to run functions on the agent durin
 
 Let's talk about values that aren't known at compile time. They're resolved at runtime. This might sound a little concerning, but we already do this all the time. Think about typing puppet.com into your web browser. Your OS actually resolves that to an IP address (and then the physical hardware eventually resolves it even further!) Or think about using your package manager to `yum install nginx` without knowing exactly which version that would resolve to. Or maybe you wanted to grab a password from the Vault server and write it into a config file without the Puppet master also having access to it….
 
-See, that was a bit of foreshadowing. Up until Puppet 6, there wasn't really a good way to do that. For Puppet to manage a file, it had to know the contents of that file when the catalog was compiled. That means that your Puppet master knew all the secrets of your entire infrastructure and it meant that you needed very tight constraints on code reviews since anyone with commit privileges could write code to access and potentially leak those secrets.
+See, that was a bit of foreshadowing. Up until Puppet 6, there wasn't really a good way to do that. For Puppet to manage a file, it had to know the contents of that file when the catalog was compiled. In other words, your Puppet master needed access to all the secrets of your entire infrastructure. Since anyone with commit privileges can write code to access and potentially leak those secrets, it also meant that you needed very tight constraints on code reviews.
 
-This is the essential use case for Deferred function: to resolve a value at runtime that the master shouldn't have access to for whatever reason.
+This is the first and most essential use case for a Deferred function: to resolve a value at runtime that the master cannot or should not have access to for whatever reason.
 
-The second consideration is for describing intent. Your job with Puppet is to create immutable configuration that is as expressive as possible. Puppet converges your node to the state you describe each time it runs and it's up to you to make that state as descriptive as possible. Just like the IP address of `216.58.217.46` isn't very descriptive in comparison to the human-readable label of `google.com`, writing code that shows how an API token is resolved from the Vault server is infinitely more readable than a random string of characters.
+The second use case is for describing intent. Your job with Puppet is to create immutable configuration that is as expressive as possible. Puppet converges your node to the state you describe each time it runs and it's up to you to make that state as descriptive as possible. Just like the IP address of `216.58.217.46` isn't very descriptive in comparison to the human-readable label of `google.com`, writing code that shows how an API token is resolved from the Vault server is infinitely more readable than a random string of characters.
+
+Some examples of resolving data at runtime could include:
+
+* [Decrypting ciphertext](https://github.com/binford2k/binford2k-node_encrypt) during catalog application.
+* [Service discovery](https://github.com/ploperations/ploperations-consul_data) between nodes at runtime.
+* Retrieving API tokens to be used by other resources during catalog application
 
 In short, you should use deferred functions as named placeholders for runtime data when that makes sense because the label describes intent more than the value is resolves to.
 
