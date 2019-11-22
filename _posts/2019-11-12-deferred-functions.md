@@ -148,4 +148,4 @@ In short, agent side functions are totally a thing now, with certain guardrails.
 
 *   See my CfgMgmtCamp [presentation](https://binford2k.github.io/node_encrypt_deferred) on Deferred functions.
 *   Read the docs for [writing a Puppet 4.x function](https://puppet.com/docs/puppet/latest/writing_custom_functions.html).
-*   Read the docs for [deferring a function](https://puppet.com/docs/puppet/6.2/integrating_secrets_and_retrieving_agent-side_data.html)
+*   Read the docs for [deferring a function](https://puppet.com/docs/puppet/latest/integrating_secrets_and_retrieving_agent-side_data.html)
