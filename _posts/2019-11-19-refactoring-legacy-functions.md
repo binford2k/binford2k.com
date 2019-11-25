@@ -10,7 +10,7 @@ The end user won't notice much of a difference except in pathological cases, but
 
 Let's do a quick summary of that one, because it's important and is worth unpacking the implications. Legacy Puppet functions were subject to environment leakage, which in short means that **legacy functions in a dev environment were often accidentally evaluated in production environments**. The Ruby runtime would only allow a single version of a function, so whichever one loaded first would be the one used for all environments. Effectively, whichever agent happened to check in first would "lock in" the version of the function that would be used for the lifetime of the compiler. Puppet 4.x functions are isolated to their own environment so that even if you have different versions of a function in different environments, the proper one will be used every time a catalog is compiled.
 
-The developer writing Puppet code will notice several improvements by using the new API though. The most obvious benefit is probably that namespaced function names make it a lot easier to find the definition of a function you're using and to prevent name collisions. For example, let's say that a module in your codebase uses the legacy API to define a function named `munge_arguments()`. This poor practice because the name isn't very unique, but it's unfortunately not unheard of. The problem arises when you install a second module that also defines a different function named `munge_arguments()`. It's functionally indeterminate which function will be invoked when you use that name if two functions with the same name exist. That means that both modules and all your code will all use the same function, and **you don't have a way to know which one** is called!
+The developer writing Puppet code will notice several improvements by using the new API though. The most obvious benefit is probably that namespaced function names make it a lot easier to find the definition of a function you're using and to prevent name collisions. For example, let's say that a module in your codebase uses the legacy API to define a function named `munge_arguments()`. This is poor practice because the name isn't very unique, but it's unfortunately not unheard of. The problem arises when you install a second module that also defines a different function named `munge_arguments()`. It's functionally indeterminate which function will be invoked when you use that name if two functions with the same name exist. That means that both modules and all your code will all use the same function, and **you don't have a way to know which one** is called!
 
 The modern function API provides a namespace, so when you invoke `mymod::munge_arguments()`, you never accidentally run the `myothermod::munge_arguments()` function. You also can see exactly how to find the source of the function on disk, because the name shows that it's located in the `mymod` module.
 
@@ -153,8 +153,7 @@ Good luck and happy refactoring!
 
 # Learn more:
 
-*   Read more about [custom functions](https://puppet.com/docs/puppet/latest/custom_functions_ruby.html).
-*   Read more about [documenting your functions or other Puppet code](https://puppet.com/docs/puppet/latest/puppet_strings.html).
-*   Read about [limitations of Puppet environments](https://puppet.com/docs/puppet/latest/environments_about.html#concept-6445).
-
-<!-- Docs to Markdown version 1.0β17 -->
+* Read more about [custom functions](https://puppet.com/docs/puppet/latest/custom_functions_ruby.html).
+* Read more about [documenting your functions or other Puppet code](https://puppet.com/docs/puppet/latest/puppet_strings.html).
+* Read about [limitations of Puppet environments](https://puppet.com/docs/puppet/latest/environments_about.html#concept-6445).
+* Learn about writing [simple functions in the Puppet language](https://puppet.com/docs/puppet/latest/lang_write_functions_in_puppet.html).
