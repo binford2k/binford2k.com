@@ -8,7 +8,7 @@ For many years, you've been able to extend the Puppet language by writing custom
 
 The end user won't notice much of a difference except in pathological cases, but the incremental benefits will be cumulative. Each modern Puppet 4.x function is just a little faster and just a little safer to use. As module developers port their functions over, compilation times will get more and more performant. Modern Puppet 4.x functions have improved threadsafety, memory management, and load time. Even more importantly, they're [isolated to the environment they're loaded from]({{ site.baseurl }}/2015/08/31/environment-leakage/).
 
-Let's do a quick summary of that one, because it's important and is worth unpacking the implications. Legacy Puppet functions were subject to environment leakage, which in short means that **legacy functions in a dev environment were often accidentally evaluated in production environments**. The Ruby runtime would only allow a single version of a function, so whichever one loaded first would be the one used for all environments. Effectively, whichever agent happened to check in first would "lock in" the version of the function that would be used for the lifetime of the compiler. Puppet 4.x functions are isolated to their own environment so that even if you have different versions of a function in different environments, the proper one will be used every time a catalog is compiled.
+Let's do a quick summary of that one, because it's important and is worth unpacking the implications. Legacy Puppet functions were subject to environment leakage, which in short means that **legacy functions in a dev environment were often accidentally also evaluated in production environments**. The Ruby runtime would only allow a single version of a function, so whichever one loaded first would be the one used for all environments. Effectively, whichever agent happened to check in first would "lock in" the version of the function that would be used for the lifetime of the compiler. Puppet 4.x functions are isolated to their own environment so that even if you have different versions of a function in different environments, the proper one will be used every time a catalog is compiled.
 
 The developer writing Puppet code will notice several improvements by using the new API though. The most obvious benefit is probably that namespaced function names make it a lot easier to find the definition of a function you're using and to prevent name collisions. For example, let's say that a module in your codebase uses the legacy API to define a function named `munge_arguments()`. This is poor practice because the name isn't very unique, but it's unfortunately not unheard of. The problem arises when you install a second module that also defines a different function named `munge_arguments()`. It's functionally indeterminate which function will be invoked when you use that name if two functions with the same name exist. That means that both modules and all your code will all use the same function, and **you don't have a way to know which one** is called!
 
@@ -42,7 +42,7 @@ module Puppet::Parser::Functions
 end
 ```
 
-This function definition required you to specify an arcane `type` parameter defining whether or not the function returns a value. It also just stuffed all arguments into an array and required you as the author to manually process said array and handle any type checking or argument errors. This might be somewhat familiar to old school Perl hackers, but is unnecessary boilerplate these days.
+This function definition required you to specify an arcane `:type` parameter defining whether or not the function returns a value. It also just stuffed all arguments into an array and required you as the author to manually process said array and handle any type checking or argument errors. This might be somewhat familiar to old school Perl hackers, but is unnecessary boilerplate these days.
 
 Instead, the modern version of this same function would look like this:
 
@@ -71,7 +71,7 @@ Puppet::Functions.create_function(:'mymod::strlen') do
 end
 ```
 
-Notice that while it looks like more code that most of it is far more expressive comments. These use [puppet-strings](https://github.com/puppetlabs/puppet-strings) format, a superset of standard [YARD documentation strings](https://yardoc.org). The body of the function is just a `dispatch` method call which registers a function _signature_ and the method to call when that signature is matched.
+Notice that while it looks like more code, most of it is far more expressive comments. These use [puppet-strings](https://github.com/puppetlabs/puppet-strings) format, a superset of standard [YARD documentation strings](https://yardoc.org). The body of the function is just a `dispatch` method call which registers a function _signature_ and the method to call when that signature is matched.
 
 In this example, there's only one dispatch. When the function is invoked with a single String as an argument, the `default_impl` method is called with that string as an argument. If the function is invoked in any other way, Puppet's type checking system catches it and raises the appropriate error. It's worth noting that the name of this method is arbitrary, so choose whatever makes sense for your own function.
 
