@@ -11,7 +11,7 @@ help them to be friends with each other. I get to play with all the cool new
 tools and help others learn how to do it for real.
 
 When I started here, I was in professional services, which meant that I visited
-exotic places like Denver and Columbus and teach people to use Puppet1 or help
+exotic places like Denver and Columbus and teach people to use Puppet or help
 them integrate it into their infrastructure. Now most of my travel is to blab
 at conferences and such.
 
@@ -20,21 +20,19 @@ be the online home of my consolidated projects and writing. Someday.
 
 -------------
 
-<a href="https://github.com/binford2k/binford2k.com/new/master/tests?filename=_posts/0-0-0-new-post.md id="newpost">Create new post</a>
+<a href="https://github.com/binford2k/binford2k.com/new/master/tests?filename=_posts/0-0-0-new-post.md" id="newpost">Create new post</a>
 
 <script>
  var date = new Date().toISOString().split('T')[0];
- var text = "---
-layout: post
-title: "new post"
-summary:
-image:
-category:
-tags: []
----
-"
-  var link = "https://github.com/binford2k/binford2k.com/new/master/tests?filename=_posts/"+date+"-new-post.md&value="+text;
-  $("#warning").html(days + " days ago");
+ var text = "---\n"             +
+            "layout: post\n"    +
+            "title: new post\n" +
+            "summary:\n"        +
+            "image:\n"          +
+            "category:\n"       +
+            "tags: []\n"        +
+            "---\n"
+  var link = "https://github.com/binford2k/binford2k.com/new/master/tests?filename=_posts/"+date+"-new-post.md&value="+encodeURI(text);
 
   $("#newpost").attr("href", link);
 </script>
