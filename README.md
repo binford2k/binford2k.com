@@ -1,57 +1,36 @@
-# Soot Spirits Jekyll Theme
+<script>
+ var date = new Date().toISOString().split('T')[0];
+ var text = "---
+layout: post
+title: "new post"
+summary:
+image:
+category:
+tags: []
+---
+"
+</script>
 
-Soot Spirits is a responsive mobile ready lightweight two column Jekyll theme made with Bulma CSS. It is a great template for simple personal blogs with focus on typography.
+# binford2k.com
 
-![mobile](tmp/mobile.png)
+This is the source for my [blog](https://binford2k.com). I started with
+[Soot Spirits](https://github.com/abhn/Soot-Spirits) and then customized it by
+drastically simplifying some bits and adding some magic of my own. The [tags page](https://binford2k.com/tags/)
+started with [jQuery.prettyTag](https://github.com/CodeHimBlog/jquery.prettytag),
+which I modified to add the `data-count` attribute and then sized each tag relatively
+by this count.
 
-The text is made beautiful with combination of [League Gothic](https://www.fontsquirrel.com/fonts/league-gothic), [Roboto](https://fonts.google.com/specimen/Roboto) and [Open Sans](https://fonts.google.com/specimen/Open+Sans). Now who doesn't love them.
+Please feel free to file issues on this project if you find usability concerns
+or submit a pull request to correct any content I get wrong.
 
-![text](tmp/langslide.gif)
+Thanks!
 
-### Demo
-[sootspirits.github.io](https://sootspirits.github.io)
-
-### Some Good Features
-
-- Fully mobile ready
-- Beautiful typography
-- Two column layout suitable for a wide range of blogging habits
-- Fully customisable theme including the 'hello' text, quotes, nav items and sidebar widgets
-
-### Screenshots
-##### Deskop browser (full width)
-![fullwidth](tmp/fullwidth.png)
-
-##### Tablet browser (iPad)
-![tab](tmp/ipad.png)
-
-##### Mobile browser (320px and greater)
-![mobile](tmp/mobile.png)
-
-##### Hamburger menu toggle
-![hamburger](tmp/hamburger.gif)
-
-##### Basic navigation and footer
-![navi](tmp/navi.gif)
-
-### Theme Usage
-
-- [Get started](https://jekyllrb.com/docs/installation/) with having the necessary tools set up
-- Download the zip of this project or simple clone it
-- Delete the ```tmp/``` directory and any sample ```_posts```
-- Customize the variables in ```_config.yml``` file such that it reflects your information. Similarly, change the disqus username (or remove it altogether).
-- Replace footer links in the ```_layouts/default.html``` file with yours.
-- Replace the ```site:example.com``` in ```assets/js/custom.js``` with your site's address.
+<a href="https://github.com/binford2k/binford2k.com/new/master/tests?filename=_posts/<script>document.write(date);</script>-new-post.md&value=<script>document.write(text);</script>">Create new post</a>
 
 ### Credits
-- [Codepen hi-im-si](http://codepen.io/hi-im-si/pen/DHoup) for the header 'hello' typewriter text
+- [sootspirits.github.io](https://sootspirits.github.io) for the starter template
+- [jQuery.prettyTag](https://github.com/CodeHimBlog/jquery.prettytag)
 - [Bulma CSS](bulma.io/)
-- [Jekyll](https://jekyllrb.com)
-- [Github](https://github.com)
 
 ### Licence
 MIT
-
-
-### What's up with the name?
-I was watching [My Neighbour Totoro](https://en.wikipedia.org/wiki/Susuwatari) while developing :-)
