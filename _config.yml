@@ -13,11 +13,12 @@ highlighter: rouge
 # so be sure to set them if your theme uses them.
 #
 title : binford2k.com
-tagline: Code, Science, Philosophy, Humor
+tagline: Doing the dev oops
 author :
   name : Ben Ford
   github : binford2k
   twitter : binford2k
+  image: profile.jpg
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt

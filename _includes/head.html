@@ -46,11 +46,36 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
   <title>
-    {% if page.title == "Home" %}
+    {% if page.title == nil %}
       {{ site.title }} &middot; {{ site.tagline }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
+
+  <!-- Twitter cards -->
+  <meta name="twitter:site"    content="@{{ site.author.twitter }}">
+  <meta name="twitter:creator" content="@{{ site.author.twitter }}">
+
+  {% if page.title %}
+  <meta name="twitter:title"   content="{{ page.title }}">
+  {% else %}
+  <meta name="twitter:title"   content="{{ site.title }}">
+  {% endif %}
+
+  {% if page.summary %}
+  <meta name="twitter:description" content="{{ page.summary }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  {% endif %}
+
+  {% if page.image %}
+  <meta name="twitter:card"  content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.image }}">
+  {% else %}
+  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ site.author.image }}">
+  {% endif %}
+  <!-- end of Twitter cards -->
 
 </head>
