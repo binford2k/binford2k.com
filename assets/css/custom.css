@@ -28,6 +28,11 @@
     width: 65%;
 }
 
+h2 {
+  border-bottom: 1px solid #ccc;
+  margin-top: 2em;
+}
+
 h1.title span.wrap {
     min-height: 1em;
     display: inline-block;
@@ -188,6 +193,10 @@ h1.title > span {
 
 i.center {
   vertical-align: baseline;
+}
+
+div.highlight {
+  margin-bottom: 1em;
 }
 
 /* sorry God. Just once */
