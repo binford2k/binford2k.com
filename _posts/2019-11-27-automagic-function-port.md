@@ -204,7 +204,7 @@ end
 ```
 
 Now we have functions that enjoy all the benefits of the modern API, plus they're
-approximately 9,000x easier to read.
+approximately 9,000x easier to read without all the extra boilerplate code.
 
 
 ## Documentation
