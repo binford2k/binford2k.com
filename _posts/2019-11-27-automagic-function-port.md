@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Automagic Puppet Function Updater"
+summary: Automatically porting legacy functions to the modern Puppet Ruby API
 image: magic.jpg
 tags: [puppet, development, refactor, modern, magic]
 ---
