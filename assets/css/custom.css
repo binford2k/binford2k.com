@@ -156,7 +156,7 @@ h1.title > span {
   font-family: "FontAwesome";
 }
 
-.post-text blockquote :first-child:before {
+.post-text blockquote p:first-child:before {
   float: left;
   content: "\f10d";
   margin-right: 2px;
