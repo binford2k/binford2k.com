@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Rapidly iterating training materials"
+summary: "Agile practices in traditional classroom training content?"
 image: cat_hat_juggling.jpg
 tags: [learning, development, education, training]
 ---

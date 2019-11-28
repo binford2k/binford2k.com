@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Docker Docker Docker"
+summary: "Quickly stand up a full classroom of containerized agent instances."
 image: docker-whales-transparent.png
 tags: [puppet, docker, "system administration", "test networks"]
 ---

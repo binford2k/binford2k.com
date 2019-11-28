@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Declarative State Modeling"
+summary: Describe the end result and let Puppet worry about the implementation details.
 tags: ["system administration", puppet, "configuration management"]
 ---
 By now in your Puppet career, you've almost certainly been exposed to the

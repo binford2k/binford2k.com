@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Agent Side Functions in Puppet 6"
-description: "Deferring a Puppet function to runtime."
+summary: "Deferring a Puppet function to runtime."
 category:
 tags: ["puppet", "development"]
 ---

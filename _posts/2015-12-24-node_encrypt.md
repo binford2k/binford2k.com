@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Sharing secrets with Puppet, secretly."
+summary: "Using the built-in Puppet CA to transparently encrypt secrects."
 image: keys.png
 tags: [puppet, security, encryption, configuration, "configuration management"]
 ---

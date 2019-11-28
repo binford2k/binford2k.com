@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Open Letter to Tim Cook, or How I Learned to Stop Worrying and Love the Galaxy S"
+summary: This battery is terrible.
 image: image2fpng.png
 tags: [apple, iPhone, battery, useless]
 ---

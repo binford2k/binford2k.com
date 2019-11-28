@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Idempotence -- not just a big & scary word"
+summary: "Already did it; not gonna do it again!"
 image: idempotence.jpg
 category: zero
 tags: ["configuration management", puppet, math]

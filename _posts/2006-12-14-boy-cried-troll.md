@@ -2,6 +2,7 @@
 layout: post
 title: "The boy who cried troll"
 image: german_bridge_troll_loves_sugar_538675.jpg
+summary: Nobody listens to a troll... even when he's not trolling.
 category:
 tags: [humor, frivolity]
 ---

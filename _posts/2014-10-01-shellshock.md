@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Using MCollective to generate spiffy Shellshock reports for your boss"
+title: "Generate Shellshock reports with MCollective."
+summary: "Using MCollective to generate spiffy Shellshock reports for your boss"
 image: shellshock.jpg
 category:
 tags: [shellshock, security, vulnerability, mcollective, facter, facts.d]

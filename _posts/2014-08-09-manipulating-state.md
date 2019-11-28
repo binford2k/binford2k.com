@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Manipulating existing state, and other foolish ideas"
+summary: "Remember that flexibility is not always a benefit; a bowl of spaghetti is also rather flexible."
 image:
 category:
 tags: ["system administration", puppet, "configuration management"]

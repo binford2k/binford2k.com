@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "In other news, spaceships have side effects."
+summary: "So use binford2k/manifold instead!"
 image: spaceships.jpg
 tags: [spaceships, dependencies, puppet, resources]
 ---

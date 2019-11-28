@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The awesome power of fucking up"
+summary: "I love watching my students fuck up. No, really."
 image: westy_kari.jpg
 category:
 tags: [education, learning]

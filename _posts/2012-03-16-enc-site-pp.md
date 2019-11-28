@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Using the ENC together with site.pp. What is this madness?"
+summary: "How Puppet mixes the ENC and site.pp"
 image:
 category:
 tags: ["system administration", puppet]

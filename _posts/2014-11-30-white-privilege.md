@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "White privilege is not having to know what privilege means"
+summary: "White privilege is the ability to be oblivious."
 image:
 category:
 tags: [philosophy, social, words]

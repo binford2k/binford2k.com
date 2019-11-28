@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Upgrade to Puppet 4.x functions already!"
+summary: "The modern Puppet function API offers a ton of advantages. Why aren't you using it?"
 image:
 tags: [puppet, development, refactor, modern]
 ---

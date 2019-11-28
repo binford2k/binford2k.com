@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Learn by teaching"
+summary: Help the new person learn the tools of the trade and learn more in the process.
 image: Dojo.png
 category:
 tags: [learning, education, philosophy]

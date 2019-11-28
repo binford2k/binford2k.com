@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Party photos ftw"
+summary: Derby girls love to take wacky photos.
 image: photobooth.jpg
 category:
 tags: [fun, frivolity, "toy projects"]

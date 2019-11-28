@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Environment Leakage"
+summary: Only slightly less revolting than Olestra.
 image: olestra.gif
 tags: [puppet, "configuration management", programming, "cache is hard"]
 ---

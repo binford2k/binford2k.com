@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "So what is this Puppet thing anyway?"
+summary: Getting started with the Puppet language.
 image: puppet_zero.png
 category: zero
 tags: [puppet, "system administration", tutorials, introduction, "configuration management", configuration]
