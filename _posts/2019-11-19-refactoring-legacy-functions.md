@@ -156,4 +156,4 @@ Good luck and happy refactoring!
 * Read more about [custom functions](https://puppet.com/docs/puppet/latest/custom_functions_ruby.html).
 * Read more about [documenting your functions or other Puppet code](https://puppet.com/docs/puppet/latest/puppet_strings.html).
 * Read about [limitations of Puppet environments](https://puppet.com/docs/puppet/latest/environments_about.html#concept-6445).
-* Learn about writing [simple functions in the Puppet language](https://puppet.com/docs/puppet/latest/lang_write_functions_in_puppet.html).
+* Learn about writing [simple functions in the Puppet language](https://puppet.com/docs/puppet/latest/lang_write_functions_in_puppet.html) instead of Ruby.
