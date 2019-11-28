@@ -20,6 +20,8 @@ be the online home of my consolidated projects and writing. Someday.
 
 -------------
 
+<a href="https://github.com/binford2k/binford2k.com/new/master/tests?filename=_posts/0-0-0-new-post.md id="newpost">Create new post</a>
+
 <script>
  var date = new Date().toISOString().split('T')[0];
  var text = "---
@@ -31,6 +33,8 @@ category:
 tags: []
 ---
 "
-</script>
+  var link = "https://github.com/binford2k/binford2k.com/new/master/tests?filename=_posts/"+date+"-new-post.md&value="+text;
+  $("#warning").html(days + " days ago");
 
-<a href="https://github.com/binford2k/binford2k.com/new/master/tests?filename=_posts/<script>document.write(date);</script>-new-post.md&value=<script>document.write(text);</script>">Create new post</a>
+  $("#newpost").attr("href", link);
+</script>
