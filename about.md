@@ -20,11 +20,10 @@ be the online home of my consolidated projects and writing. Someday.
 
 -------------
 
-<a href="https://github.com/binford2k/binford2k.com/new/master/tests?filename=_posts/0-0-0-new-post.md" id="newpost">Create new post</a>
-
 <script>
- var date = new Date().toISOString().split('T')[0];
- var text = "---\n"             +
+  var repo = "binford2k/binford2k.com";
+  var date = new Date().toISOString().split('T')[0];
+  var text = "---\n"            +
             "layout: post\n"    +
             "title: new post\n" +
             "summary:\n"        +
@@ -32,7 +31,10 @@ be the online home of my consolidated projects and writing. Someday.
             "category:\n"       +
             "tags: []\n"        +
             "---\n"
-  var link = "https://github.com/binford2k/binford2k.com/new/master/tests?filename=_posts/"+date+"-new-post.md&value="+encodeURI(text);
+  var link = "https://github.com/"+repo+"/new/master/tests?filename=_posts/"+date+"-new-post.md&value="+encodeURI(text);
 
-  $("#newpost").attr("href", link);
+  $( "<a/>", {
+    text: "Create new post",
+    href: link,
+  }).appendTo( ".content .post-text" );
 </script>
