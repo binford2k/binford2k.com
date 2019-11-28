@@ -17,3 +17,20 @@ at conferences and such.
 
 Oh, and I run marathons in those funny finger shoes. This is destined to one day
 be the online home of my consolidated projects and writing. Someday.
+
+-------------
+
+<script>
+ var date = new Date().toISOString().split('T')[0];
+ var text = "---
+layout: post
+title: "new post"
+summary:
+image:
+category:
+tags: []
+---
+"
+</script>
+
+<a href="https://github.com/binford2k/binford2k.com/new/master/tests?filename=_posts/<script>document.write(date);</script>-new-post.md&value=<script>document.write(text);</script>">Create new post</a>

@@ -1,16 +1,3 @@
-<script>
- var date = new Date().toISOString().split('T')[0];
- var text = "---
-layout: post
-title: "new post"
-summary:
-image:
-category:
-tags: []
----
-"
-</script>
-
 # binford2k.com
 
 This is the source for my [blog](https://binford2k.com). I started with
@@ -24,8 +11,6 @@ Please feel free to file issues on this project if you find usability concerns
 or submit a pull request to correct any content I get wrong.
 
 Thanks!
-
-<a href="https://github.com/binford2k/binford2k.com/new/master/tests?filename=_posts/<script>document.write(date);</script>-new-post.md&value=<script>document.write(text);</script>">Create new post</a>
 
 ### Credits
 - [sootspirits.github.io](https://sootspirits.github.io) for the starter template
