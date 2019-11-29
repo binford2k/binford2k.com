@@ -99,7 +99,7 @@ For this reason, the generated function uses a single dispatch using a `repeated
 to capture all arguments into a single untyped array and passes that to the
 implementation method. Gross hack, but it works.
 
-``` Ruby
+``` ruby
 dispatch :default_impl do
   # Call the method named 'default_impl' when this is matched
   # Port this to match individual params for better type safety
@@ -140,7 +140,7 @@ trust that the language will enforce the proper data types.
 
 **Notice that we removed the splat (`*`) from the method signature!**
 
-``` Ruby
+``` ruby
 dispatch :default_impl do
   param 'Numeric', :value
 end
@@ -156,7 +156,7 @@ The function will join the array into a string, separated by the separator strin
 
 The originally ported implementation looks like
 
-``` Ruby
+``` ruby
 dispatch :default_impl do
   # Call the method named 'default_impl' when this is matched
   # Port this to match individual params for better type safety
@@ -190,7 +190,7 @@ end
 
 We can see that there are two signatures, so let's update the dispatch definition.
 
-``` Ruby
+``` ruby
 dispatch :default_impl do
   param 'Array', :values
 end
