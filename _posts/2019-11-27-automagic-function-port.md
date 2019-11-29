@@ -52,7 +52,7 @@ tool from porting the function to the modern API.
 
 ```
 INFO: Creating lib/puppet/functions/stdlib/deep_merge.rb
-ERROR: The function attempted to load libraries outside the function block.
+WARN: The function attempted to load libraries outside the function block.
 WARN: cannot load such file -- puppet/parser/functions (ignored)
 ```
 
@@ -68,6 +68,11 @@ ERROR: <compiled>:47: dynamic constant assignment
     NUM_ARGS = 2 unless defined? NUM_ARGS
              ^
 ```
+
+Two files will be generated, the function file and the spec test for that function.
+
+* `lib/puppet/functions/<namespace>/<function>.rb`
+* `spec/functions/<namespace>_<function>_spec.rb`
 
 Now that all the new functions are written comes the most important part, your
 part! Now you should inspect each function and update their documentation or
@@ -220,10 +225,10 @@ format. This will help you automatically document your module on the
 
 ## Testing
 
-Apologies, but the `puppet_function_updater` tool does not yet create spec tests
-for the new function. I will come back and update this post when it does, but in
-the meantime you should write your own. Or at least run the new function through
-its paces in some Puppet code.
+The test simply validates that the function compiles and defines a function
+properly, so you'll also want to write more test cases. If your legacy function
+has unit tests, you might consider porting them to the new function, following
+the examples provided as comments.
 
 
 ## Got feedback?
