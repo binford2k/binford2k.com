@@ -38,3 +38,23 @@ function searchHandler() {
     // add site:example.com in the placeholder
     window.location.href = "https://www.google.com/search?q=site:binford2k.com " + text;
 }
+
+$( document ).ready(function() {
+  $("#newpost").on("click", function(e){
+    e.preventDefault();
+
+    var date = new Date().toISOString().split('T')[0];
+    var text = "---\n"             +
+            "layout: post\n"    +
+            "title: new post\n" +
+            "summary:\n"        +
+            "image:\n"          +
+            "category:\n"       +
+            "tags: []\n"        +
+            "---\n"
+    var params = "filename=_posts/"+date+"-new-post.md&value="+encodeURI(text);
+    var href   = $(this).attr("href").split('?')[0];
+
+    window.open(href+'?'+params);
+  });
+});

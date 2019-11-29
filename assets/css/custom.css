@@ -84,7 +84,12 @@ h1.title > span {
 }
 
 .footer {
-    padding: 3rem 1.5rem 3rem;
+    padding: 1rem 1.5rem 1rem;
+    font-size: 0.8rem;
+}
+
+.footer .spaced-out span {
+  margin: 0 1rem;
 }
 
 .post-title {
@@ -166,6 +171,12 @@ h1.title > span {
   content: "\f10e";
 }
 
+.fa-puppet {
+  font-family: dag !important;
+}
+.fa-puppet:before {
+  content: "\e800";
+}
 
 .tag_box {
   font-size: 0.65em;

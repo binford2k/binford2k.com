@@ -78,12 +78,13 @@
               <div class="card-content">
                 <div class="content has-text-centered">
                   <p>
-                    <a class="icon" href="https://github.com/binford2k"><i class="fa fa-github" title="Github"></i></a>
-                    <a class="icon" href="https://www.linkedin.com/in/ben-ford-061b344"><i class="fa fa-linkedin" title="Linkedin"></i></a>
-                    <a class="icon" href="https://twitter.com/binford2k"><i class="fa fa-twitter" title="Twitter"></i></a>
-                    |
-                    <a class="icon" href="https://forge.puppet.com/binford2k"><i class="icon-puppet" title="Puppet Forge">&#xe800;</i></a>
-                    <a class="icon" href="https://puppetcommunity.slack.com/team/UF463AVQS"><i class="fa fa-slack" title="Slack"></i></a>
+                  {% for contact in site.contact %}
+                    {% if contact %}
+                      <a class="icon" href="{{ contact.link }}"><i class="fa fa-{{ contact.icon }}" title="{{ contact.title }}"></i></a>
+                    {% else %}
+                      |
+                    {% endif %}
+                  {% endfor %}
                   </p>
                 </div>
               </div>
@@ -134,7 +135,11 @@
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-
+      <p class="spaced-out">
+        <span>Hosted on <a href="https://github.com/">Github</a></span> &diams;
+        <span>All rights reserved</span> &diams;
+        <span><a id="newpost" href="{{ site.repo }}/new/{{ site.branch }}/?filename=_posts/0-0-0-new-post.md">Create new post <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
+      </p>
     </div>
   </div>
 </footer>

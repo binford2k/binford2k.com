@@ -4,7 +4,8 @@ permalink: pretty
 paginate: 3
 paginate_path: "/blog/page:num/"
 
-viewsourceroot: https://github.com/binford2k/binford2k.com/blob/master/
+repo: https://github.com/binford2k/binford2k.com
+branch: master
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
@@ -19,6 +20,24 @@ author :
   github : binford2k
   twitter : binford2k
   image: profile.jpg
+contact:
+  - name: GitHub
+    icon: github
+    link: https://github.com/binford2k
+  - name: LinkedIn
+    icon: linkedin
+    link: https://www.linkedin.com/in/ben-ford-061b344
+  - name: Twitter
+    icon: twitter
+    link: https://twitter.com/binford2k
+  -
+  - name: Puppet
+    icon: puppet
+    link: https://forge.puppet.com/binford2k
+  - name: Slack
+    icon: slack
+    link: https://puppetcommunity.slack.com/team/UF463AVQS
+
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt

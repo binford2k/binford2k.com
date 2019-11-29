@@ -17,24 +17,3 @@ at conferences and such.
 
 Oh, and I run marathons in those funny finger shoes. This is destined to one day
 be the online home of my consolidated projects and writing. Someday.
-
--------------
-
-<script>
-  var repo = "binford2k/binford2k.com";
-  var date = new Date().toISOString().split('T')[0];
-  var text = "---\n"            +
-            "layout: post\n"    +
-            "title: new post\n" +
-            "summary:\n"        +
-            "image:\n"          +
-            "category:\n"       +
-            "tags: []\n"        +
-            "---\n"
-  var link = "https://github.com/"+repo+"/new/master/tests?filename=_posts/"+date+"-new-post.md&value="+encodeURI(text);
-
-  $( "<a/>", {
-    text: "Create new post",
-    href: link,
-  }).appendTo( ".content .post-text" );
-</script>
