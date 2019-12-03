@@ -65,3 +65,4 @@ Inevitability Thinking is thinking and acting as if what you are doing is a forg
 In the long run, all of us are dead.
 You can educate a fool, but you cannot make him think.
 When you have more than you need, build a longer table not a higher wall.
+"Theory and practice sometimes clash. And when that happens, theory loses. Every single time."  -- Linus Torvalds
