@@ -11,21 +11,17 @@ function toggleNav() {
     }
 }
 
-// for the random quote in the header
-var txtFile = new XMLHttpRequest();
-txtFile.open("GET", "/quotes.txt", true);
-txtFile.onreadystatechange = function () {
-    if (txtFile.readyState === 4) {
-        if (txtFile.status === 200) {
-            allText = txtFile.responseText;
-            lines = txtFile.responseText.split("\n");
-            randLine = lines[Math.floor((Math.random() * lines.length) + 1)];
-            document.getElementById('quote').innerHTML = randLine ||
-                "Intelligence is the ability to adapt to change."; // fallback quote
-        }
-    }
-};
-txtFile.send(null);
+function getRandomQuote() {
+  return quotes[Math.floor((Math.random() * quotes.length) + 1)];
+}
+$.get( "quotes.txt", function( data ) {
+  quotes = data.split("\n");
+  if(quotes.length == 0) {
+    quotes = ["Intelligence is the ability to adapt to change."];
+  }
+
+  $('#quote').html(getRandomQuote());
+});
 
 document.getElementById("search-text").addEventListener("keydown", function(e) {
     // search
@@ -40,6 +36,8 @@ function searchHandler() {
 }
 
 $( document ).ready(function() {
+
+
   $("#newpost").on("click", function(e){
     e.preventDefault();
 
@@ -65,6 +63,17 @@ $( document ).ready(function() {
   var holidays = {
     1: {
       1: function(){confetti.start()}
+    },
+    4: {
+      1: function(){
+          clippy.load('Clippy', function(agent) {
+            agent.show();
+            setTimeout(function(){
+              agent.speak("Happy April Fools!");
+              setInterval(function(){ agent.speak(getRandomQuote()); }, 30000);
+            }, 3000);
+          });
+      }
     },
     7: {
       4: function(){launchFireworks()}
