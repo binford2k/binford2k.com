@@ -240,6 +240,15 @@ ul {
   list-style: initial;
 }
 
+/* holiday funs */
+canvas#scene {
+  height:250px;
+  background:black;
+  display: block;
+  margin: 0 auto;
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .pagination {
     flex-wrap: nowrap;

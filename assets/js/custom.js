@@ -57,4 +57,28 @@ $( document ).ready(function() {
 
     window.open(href+'?'+params);
   });
+
+  var currentDate  = new Date();
+  var currentMonth = currentDate.getMonth()+1; // becuz jabbascript
+  var currentDay   = currentDate.getDate();
+
+  var holidays = {
+    1: {
+      1: function(){confetti.start()}
+    },
+    7: {
+      4: function(){launchFireworks()}
+    },
+    12: {
+      24: function(){sparklyTree()},
+      25: function(){sparklyTree()},
+      31: function(){confetti.start()}
+    }
+  }
+
+  if (holidays[currentMonth] && holidays[currentMonth][currentDay]) {
+    $("canvas#scene").show();
+    holidays[currentMonth][currentDay]();
+  }
+
 });
