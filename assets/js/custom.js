@@ -14,7 +14,7 @@ function toggleNav() {
 function getRandomQuote() {
   return quotes[Math.floor((Math.random() * quotes.length) + 1)];
 }
-$.get( "quotes.txt", function( data ) {
+$.get( "/quotes.txt", function( data ) {
   quotes = data.split("\n");
   if(quotes.length == 0) {
     quotes = ["Intelligence is the ability to adapt to change."];
