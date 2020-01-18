@@ -6,7 +6,7 @@ image: magic.jpg
 tags: [puppet, development, refactor, modern, magic]
 ---
 
-Last week I wrote about [porting legacy Ruby Puppet functions]({{ site.baseurl }}/2019/11/refactoring-legacy-functions/)
+Last week I wrote about [porting legacy Ruby Puppet functions]({{ site.baseurl }}/2019/11/19/refactoring-legacy-functions/)
 to the modern API.  It struck me how programatic the refactoring process was, so
 I wrote a tool to automate much of it. The functions it generates are not great
 but they're a start, and they're validated to at least *work* during the process.
