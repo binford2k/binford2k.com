@@ -95,7 +95,7 @@ $variables = {
 file { '/etc/secrets.conf':
   ensure  => file,
   content => Deferred('inline_epp',
-               ['PASSWORD=<%= $password %>', $variables]),
+               ['PASSWORD=<%= $password.unwrap %>', $variables]),
 }
 ```
 
