@@ -23,7 +23,7 @@ getting a list of all the Puppet modules with legacy functions is as simple as
 
 ``` sql
 SELECT DISTINCT repo_name
-FROM `bigquery-public-data:github_repos.files`
+FROM `bigquery-public-data.github_repos.files`
 WHERE STARTS_WITH(path, 'lib/puppet/parser/functions')
 AND ref = 'refs/heads/master'
 ```
