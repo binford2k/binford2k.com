@@ -87,5 +87,5 @@ and try it out.
 
 ### Examples
 
-See a curated list of pretty decent REAME examples at the
+See a curated list of pretty decent README examples at the
 [awesome-readme](https://github.com/matiassingers/awesome-readme) repo.
