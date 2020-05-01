@@ -102,7 +102,6 @@ jobs:
     - name: Run analysis
       run: |
         gem install puppet-community-rangefinder
-        mkdir output
         rangefinder ${{ env.FILES }} > results.md
 
     - name: Post report
