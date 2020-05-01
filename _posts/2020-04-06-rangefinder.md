@@ -4,7 +4,7 @@ title: "Impact Analysis of Puppet Modules"
 summary: Have you ever wondered how many people would be affected if you broke a module you were working on?
 image: rangefinder.png
 category:
-tags: [puppet, telemetry, metrics, data, development]
+tags: [puppet, telemetry, metrics, data, development, impact analysis]
 ---
 
 Have you ever wondered who's using your Puppet modules? Or have you hesitated
