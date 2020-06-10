@@ -205,6 +205,7 @@ $ dropsonde --enable environments preview
 
                       Puppet Telemetry Report Preview
                       ===============================
+
 Dropsonde::Metrics::Environments
 -------------------------------
 This group of metrics gathers information about environments.
