@@ -92,7 +92,7 @@ end
 
 After reading through the API documentation, it's clear that we don't need to do
 anything special for initialization, to set up, or to tear down our metrics, so
-we'll ignore or omit the `self.initialize_platforms`, `self.setup`, and
+we'll ignore or omit the `self.initialize_environments`, `self.setup`, and
 `self.cleanup` methods.
 
 That leaves three hooks to implement:
