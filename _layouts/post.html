@@ -6,6 +6,11 @@ layout: default
     <span class="post-source"><a href="{{ site.repo }}/blob/{{site.branch}}/{{ page.path }}"><i class="fa fa-github" aria-hidden="true" title="See this page on Github"></i></a></span>
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">{{ page.date | date: "%A %-d %B, %Y." }} <a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></div>
+    {% if page.category %}
+    <div class="post-categories">
+      Posted in: <span class="post-category"><a href="{{site.baseurl}}/categories/#{{page.category | slugify}}"><i class="fa fa-folder center"></i>{{page.category}}</a></span>
+    </div>
+    {% endif %}
     <div class="post-tags">
     {% for tag in page.tags %}
       <span class="post-tag"><a href="{{ site.baseurl }}/tags/#{{ tag | replace: " ", "-" }}-ref"><i class="fa fa-tags center"></i>{{ tag }}</a></span>
@@ -15,7 +20,18 @@ layout: default
     {% if page.image %}
     <div class="post-image"><img src="{{ site.baseurl }}/assets/images/{{ page.image }}" /></div>
     {% endif %}
-    <div class="post-text">{{ content }}</div>
+    <div class="post-text">
+      {% if page.conditions %}
+      <div class="conditions">
+        <h4>This tutorial applies when:</h4>
+        <ul>
+          {% for condition in page.conditions %}
+          <li>{{condition}}</span>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      {{ content }}</div>
     {% include post-pagination.html %}
 </div>
 

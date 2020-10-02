@@ -1,0 +1,31 @@
+---
+layout: page
+header: Categories
+group: navigation
+---
+
+
+{% for category in site.categories %}
+{% capture category_name %}{{ category | first }}{% endcapture %}
+<div id="category-{{category_name | slugify}}" class="category">
+  <h2 class="nice-title">{{ category_name }}</h2>
+  <ul>
+    {% for post in site.categories[category_name] %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endfor %}
+
+
+<script>
+  $(document).ready(function(){
+    // show the right group if we loaded the page with it
+    var ref = window.location.href.split("#")[1];
+    if (ref) {
+      $(".category").hide();
+      $("#category-" + ref).show();
+    }
+
+  });
+</script>

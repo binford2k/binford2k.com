@@ -114,14 +114,18 @@ h1.title > span {
     font-size: small;
 }
 
-.post-tags {
-  box-shadow: 0 1px 2px rgba(10, 10, 10, 0.1);
+.post-tags,
+.post-categories {
   padding-bottom: 0.25em;
   margin-bottom: 0.5em;
   font-size: small;
 }
+.post-tags {
+  box-shadow: 0 1px 2px rgba(10, 10, 10, 0.1);
+}
 
-.post-tag {
+.post-tag,
+.post-category {
   border: 1px solid #ccc;
   border-radius: 0.25em;
   padding: 0 0.25em;
@@ -134,6 +138,17 @@ h1.title > span {
 
 .post-text p {
     margin-bottom: 1em;
+}
+
+.post-text .conditions {
+  border: 1px solid #ccc;
+  border-radius: 0.25em;
+  padding: 0 0.25em;
+  background-color: #fafafa;
+  font-size: 0.8em;
+  line-height: 1.1em;
+  padding-top: 0.5em;
+  margin-bottom: 1em;
 }
 
 .post-text img {
