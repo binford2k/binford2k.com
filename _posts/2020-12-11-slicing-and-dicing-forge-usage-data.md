@@ -62,13 +62,16 @@ downstream pull requests if needed.
 
 ## BigQuery Console
 
-The data used by Rangefinder is stored in a [public BigQuery dataset](https://console.cloud.google.com/bigquery?utm_source=bqui&utm_medium=link&utm_campaign=classic&project=puppetlabs.com:api-project-531226060619&p=dataops-puppet-public-data&d=community).
-The table it primarily uses is the [forge_itemized](https://console.cloud.google.com/bigquery?utm_source=bqui&utm_medium=link&utm_campaign=classic&project=puppetlabs.com:api-project-531226060619&p=dataops-puppet-public-data&d=community&t=forge_itemized&page=table)
+The data used by Rangefinder is stored in a [public BigQuery dataset](https://console.cloud.google.com/bigquery?project=dataops-puppet-public-data&folder=&supportedpurview=project&p=dataops-puppet-public-data&d=community&page=dataset).
+The table it primarily uses is the [forge_itemized](https://console.cloud.google.com/bigquery?project=dataops-puppet-public-data&folder=&supportedpurview=project&p=dataops-puppet-public-data&d=community&t=forge_itemized&page=table)
 table. The table is regenerated weekly by decomposing every module on the Forge
 into all the all the functions, types, classes, etc that it declares. This uses
 static analysis, so it identifies all elements declared by all code paths, but
 it also means that it cannot identify elements declared via a name dynamically
 determined at runtime.
+
+**Note:**<br />
+To run the queries below, you'll need to [request access](mailto:community@puppet.com), if you don't work at Puppet.
 
 ![BigQuery Console on the forge_itemized table]({{ site.baseurl }}/assets/images/bigquery_itemized.png)
 
