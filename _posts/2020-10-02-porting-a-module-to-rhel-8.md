@@ -17,7 +17,7 @@ changes that we've had to account for:
 * `dnf` is the new standard package manager.
 * Some services only log to systemd now and not to `/var/log/*`
 * X.org has finally been superseded by Wayland.
-* `iptables` had been replaced with `nftables`.
+* `iptables` has been replaced with `nftables`.
 * The default Python version is now 3.x.
 * Replacing `ntpd` with the new `chrony` service. Yes, that means you now have
   `cronie` and `chrony`. Good luck keeping those straight!
