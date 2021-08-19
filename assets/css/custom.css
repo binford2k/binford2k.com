@@ -103,6 +103,8 @@ h1.title > span {
   margin: 0 1em 1em 0;
   border: 1px solid #ccc;
   border-radius: 0.25em;
+  max-height: 205px;
+  max-width: 205px;
 }
 
 .post-source {
