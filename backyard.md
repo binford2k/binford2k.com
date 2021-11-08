@@ -8,7 +8,7 @@ clear; _we need human contact to save our sanity_. We've built a little backyard
  oasis for the friends we're lucky enough to live by and we'd love if you'd come
 share it with us. Keep the weather in mind and dress appropriately. We do have
 heaters cranked and sometimes hot drinks, but you should still **dress warmly and
-consider a snuggly blanket.** We have beer to share in the fridge, and you're
+consider a snuggly blanket.** We have beverages to share in the fridge, and you're
 invited to bring your own to add to the collective.
 
 ![Backyard photo with Josh singing spooky karaoke](/assets/images/backyard.jpg)
@@ -42,7 +42,7 @@ Kids are currently a grey area, and we'll leave it to your discretion for now.
 This is an outdoors space and socially distanced. As such, masks are not
 _required_ but are suggested, especially if you're not a regular and this is
 outside your extended circle of friends. But that said, you _will_ respect
-other's COVID boundaries, and you _will_ ask for consent before approaching for
+others' COVID boundaries, and you _will_ ask for consent before approaching for
 a hug or anything else up close and personal. Or you'll leave. That's a hard
 limit.
 
