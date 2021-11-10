@@ -17,8 +17,8 @@ invited to bring your own to add to the collective.
 
 ### Single events
 
-* **Friday, November 26**: Does the idea of gorging yourself on food you didn't want to eat with family members you didn't really want to see fill you with dread? Would you rather be doing something athletic, whether it's walking around the block or pounding out a 10k? Come celebrate with us, and at least have a reason for the calories.
-  * [Runsgiving Signup Sheet]()
+* **Friday, November 26**: Does the idea of gorging yourself on food you didn't want to eat with family members you didn't really want to see fill you with dread? Would you rather be doing something athletic, whether it's walking around the block or pounding out a 10k? Come celebrate with us!
+  * [Runsgiving Signup Sheet](https://docs.google.com/spreadsheets/d/1vaZP-1-Cidej-ZpI9iUCag8tfy696miAw6JF9BaVmnc/edit?usp=sharing)
 
 ### Recurring Events
 
@@ -41,13 +41,13 @@ Kids are currently a grey area, and we'll leave it to your discretion for now.
 
 This is an outdoors space and socially distanced. As such, masks are not
 _required_ but are suggested, especially if you're not a regular and this is
-outside your extended circle of friends. But that said, you _will_ respect
-others' COVID boundaries, and you _will_ ask for consent before approaching for
-a hug or anything else up close and personal. Or you'll leave. That's a hard
+outside your extended circle of friends. But that said, we expect each person to respect
+others' COVID boundaries and ask for consent before approaching for
+a hug or anything else up close and personal. That's a hard
 limit.
 
 The bathroom is inside, down the stairs, and to the right. There are sanitizing
-supplies and you should wash your hands like the filthy beasts we all are.
+supplies and you should wash your hands like the filthy beasts we all are. :) 
 
 If we have a signup sheet, it's because we want to either provide the right
 amount of food, or because we don't want it to end up too crowded to respect
