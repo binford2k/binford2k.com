@@ -25,7 +25,7 @@ invited to bring your own to add to the collective.
 * **Sundays**: Would you like your weekends to have a few miles and then brunch with friends? Join the Sunday Runday series. Now with free sticker!
   * [Sunday Runday Calendar](https://docs.google.com/spreadsheets/d/1vaZP-1-Cidej-ZpI9iUCag8tfy696miAw6JF9BaVmnc/edit?usp=sharing)
 * **Fridays**: Do your eyeballs need to feast on bad movies with good friends? Check out our backyard movie nights.
-  * [Movie Calendar]()
+  * [Movie Calendar](https://docs.google.com/spreadsheets/d/1dvS1hVPiwiNV6u1ZhoIPTQc-Wa7ub_-LjHFjCoU8Yeo/edit?usp=sharing)
 * **Tuesdays**: Most Tuesdays we host Rose City Run Club. Show at 6pm, run at 6:15pm, then reconvene for a beer or three sometime around 6:45pm. See the Facebook group for the actual schedule.
   * [Rose City Run Club](https://www.facebook.com/groups/RoseCityRunClub)
 
