@@ -16,7 +16,20 @@ invited to bring your own to add to the collective.
 
 ## Upcoming Shenanigans
 
-* **Sunday Runday**: Would you like your weekends to have a few miles and then brunch with friends? Join the Sunday Runday brunch series at 10:30am each Sunday. Now with free sticker!
+### Baby, it's dark outside dark beer tasting party
+
+About the only thing that I love more than a big bold dark beer is a whole
+taster tray full of big bold dark beers. So we're holding a dark beer tasting in
+the backyard this winter. I've got a ton of delicious dark beers, some of which
+are really too much for one person to finish in a sitting. And I'd love to share
+it with other dark beer fanatics. Bring some of your own too, if you've got
+something exotic that you'd like to share. We've got plenty of taster cups to go
+around.<br>
+*Note: this really is about the beer. If you're not all that into the big heavy brews,
+this might not be the event for you. Ping me for details.*
+
+### Repeating events
+* **Sunday Runday**: Would you like your weekends to have a few miles and then brunch with friends? Join the Sunday Runday brunch series at 10:30am . Now with free sticker! Check the calendar to see which days we run and RSVP so we know how much food to prepare!
   * [Sunday Runday Calendar](https://docs.google.com/spreadsheets/d/1vaZP-1-Cidej-ZpI9iUCag8tfy696miAw6JF9BaVmnc/edit?usp=sharing)
 * **Friday Movie Night**: Do your eyeballs need to feast on bad movies with good friends? Ok, they're not all bad, but I don't want to set your expectations too high. Stop by for our backyard movie nights any time you like. Showtime is about 6:30pm.
   * [Movie Calendar](https://docs.google.com/spreadsheets/d/1dvS1hVPiwiNV6u1ZhoIPTQc-Wa7ub_-LjHFjCoU8Yeo/edit?usp=sharing)
@@ -40,7 +53,7 @@ a hug or anything else up close and personal. That's a hard
 limit.
 
 The bathroom is inside, down the stairs, and to the right. There are sanitizing
-supplies and you should wash your hands like the filthy beasts we all are. :) 
+supplies and you should wash your hands like the filthy beasts we all are. :)
 
 If we have a signup sheet, it's because we want to either provide the right
 amount of food, or because we don't want it to end up too crowded to respect
