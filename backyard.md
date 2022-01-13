@@ -16,7 +16,7 @@ invited to bring your own to add to the collective.
 
 ## Upcoming Shenanigans
 
-### Ginuary: January 22
+### Ginuary: January 22, 6:45pm
 
 Gin, you say? Yes, gin. Did you know there's a whole flavour palate out there that's
 not just xmas trees? We'll have a few fancy-pantsy favorites here, along with some good
@@ -34,7 +34,7 @@ us know -- we don't want anyone to miss out on the ginXperience.)*
 * CashApp: `$karifass`
 
 
-### Baby, it's dark outside dark beer tasting party: January 29
+### Baby, it's dark outside dark beer tasting party: January 29, 6pm
 
 About the only thing that I love more than a big bold dark beer is a whole
 taster tray full of big bold dark beers. So we're holding a dark beer tasting in
