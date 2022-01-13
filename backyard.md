@@ -16,7 +16,25 @@ invited to bring your own to add to the collective.
 
 ## Upcoming Shenanigans
 
-### Baby, it's dark outside dark beer tasting party
+### Ginuary: January 22
+
+Gin, you say? Yes, gin. Did you know there's a whole flavour palate out there that's
+not just xmas trees? We'll have a few fancy-pantsy favorites here, along with some good
+old standbys and all the accoutrements for a whole variety of cocktails. Yes, there's
+more to gin than just a G&T! Sodas, tonics, berries, citrus, bubbly, other goodies.
+And plenty of space to experiment with all the flavors and create all the tiny-but-tasty
+cocktails you can imagine.
+
+Anyways, since we're procuring some top-shelf liquors here, we're asking for a $15
+  contribution to the cause, which will be your RSVP *(and if that's a burden, just let
+us know -- we don't want anyone to miss out on the ginXperience.)*
+
+***RSVP's close midnight on Jan. 15!***
+* Venmo: `@Kari-Fass` *(preferred)*
+* CashApp: `$karifass`
+
+
+### Baby, it's dark outside dark beer tasting party: January 29
 
 About the only thing that I love more than a big bold dark beer is a whole
 taster tray full of big bold dark beers. So we're holding a dark beer tasting in
