@@ -4,6 +4,10 @@ title: Ginuary 2022
 ---
 
 <style>
+summary {
+  cursor: pointer;
+  outline: none;
+}
 summary + img {
   float: right;
   max-height: 225px;
@@ -12,12 +16,41 @@ summary + img {
 h2 {
   clear: both;
 }
-summary {
-  outline: none;
-}
 </style>
 
 # The GINSPLOSION
+
+Gin is wonderful on its own. Ice cold on the rocks, or neat at room temperature. Do try some on their own to get a good
+idea of the base flavours you'll be working with.
+
+But when you do start mixing in the accoutrements, the secret is the interplay between complements and contrasts. For
+example, a citrus-forward gin like New Amsterdam doesn't need more citrus... but what contrasting flavor could highlight
+and compliment it? On the other hand, with a light and floral gin, you want to be careful not to overpower it, so you
+might choose a more subtle complementing flavor to enhance the floral notes.
+
+We have a whole variety of ingredients, ranging from spicy, to sweet and fruity, to citrus, to herbal, and savory. A
+good strategy might be to pick a palate of two of those, then select one ingredient to represent each. As you get more
+adventurous, you can try more complex combinations.
+
+Some examples could be:
+
+* Sweet and spicy; blackberry and peppercorns
+* Citrus and herbal; lemon and mint
+* Fruity and savory; blueberries and sage
+
+There's more to gin than just tonic. But that's a good place to start. Remember that a good old G&T is mostly tonic, so
+make sure to pick something that will bring out the flavors you've chosen. Sip some of the different choices and see what
+you like. And if you're not a fan of the mediciney flavor of quinine, there's nothing at all wrong with plain seltzer.
+
+Once you're ready to branch out, experiment with some other combinations or recipes. A greyhound is gin with grapefruit
+juice; an orange blossom is gin with sweet vermouth and orange juice; Aria gin would go really well with Earl Grey black
+tea and a lemon slice. And let's not forget the fabulous French 75 which pairs some nice bubbly with gin and a good
+squeeze of lemon.
+
+If you're aiming to impress, you can make the gorgeous Sparkling Elderflower with the Empress 1908. Add splashes of lime
+and elderflower syrup, then top with tonic and a few mint leaves.
+
+Get funky with it and share the recipes to your favorite creations!
 
 ## Aria Portland Dry Gin
 <details>
