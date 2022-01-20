@@ -47,8 +47,8 @@ juice; an orange blossom is gin with sweet vermouth and orange juice; Aria gin w
 tea and a lemon slice. And let's not forget the fabulous French 75 which pairs some nice bubbly with gin and a good
 squeeze of lemon.
 
-If you're aiming to impress, you can make the gorgeous Sparkling Elderflower with the Empress 1908. Add splashes of lime
-and elderflower syrup, then top with tonic and a few mint leaves.
+If you're aiming to impress, you can make the gorgeous Sparkling Elderflower with the Empress 1908. Add heavy splashes
+of lime and elderflower syrup, then top with tonic and a few mint leaves.
 
 Get funky with it and share the recipes to your favorite creations!
 
