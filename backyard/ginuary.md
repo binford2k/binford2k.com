@@ -116,6 +116,13 @@ Get funky with it and share the recipes to your favorite creations!
   A good suggestion is to take any vodka cocktail recipe and replace the vodka with Gray Whale Gin. Suddenly, your tasteless cocktail is interesting.
 </details>
 
+## Hendrick's Lunar
+<details>
+  <summary>Tasting notes</summary>
+  <img src="/assets/images/gins/hendricks_lunar.png">
+  Hendrick's Lunar is a delightfully smooth and alluring gin that is rich with night blooming floral essence, offering a delicate balance of warm baked spices, and finished with a crisp burst of citrus. LUNAR is best enjoyed during casual nights at home and is a curious companion for sundowners and starry nights with friends.
+</details>
+
 ## Monkey 47
 <details>
   <summary>Tasting notes</summary>
