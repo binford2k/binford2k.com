@@ -62,8 +62,17 @@ Get funky with it and share the recipes to your favorite creations!
 ## The Botanist Islay Dry Gin
 <details>
   <summary>Tasting notes</summary>
-  <img src="/assets/images/gins/botanist.jpg">
+  <img src="/assets/images/gins/botanist.png">
   The Botanist is famed for its versatility and complexity. Its 31 botanical ingredients mean there’s a wealth of subtle flavours that drinkers and bartenders can go on to pull out according to their preference.
+</details>
+
+## Bourbon Barreled Big Gin
+<details>
+  <summary>Tasting notes</summary>
+  <img src="/assets/images/gins/big_gin_bourbon.jpg">
+  Warm and woody with a hint of spice and notes of juniper turned up just right, Bourbon Barreled Big Gin is crafted for the curious. It's rested for 6 months in once-used bourbon barrels from Heaven Hill Distillery, so their flagship is enriched with flavors of vanilla, charred oak and tannins.
+
+  Bourbon Barreled Big Gin will highlight the smokiness of grilled dishes. Try it with salmon or pork, and grilled garden veggies like carrots or asparagus.
 </details>
 
 ## Citadelle
