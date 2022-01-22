@@ -34,7 +34,7 @@ adventurous, you can try more complex combinations.
 
 Some examples could be:
 
-* Sweet and spicy; blackberry and peppercorns
+* Sweet and spicy; raspberries and peppercorns
 * Citrus and herbal; lemon and mint
 * Fruity and savory; blueberries and sage
 
@@ -44,8 +44,8 @@ you like. And if you're not a fan of the mediciney flavor of quinine, there's no
 
 Once you're ready to branch out, experiment with some other combinations or recipes. A greyhound is gin with grapefruit
 juice; an orange blossom is gin with sweet vermouth and orange juice; Aria gin would go really well with Earl Grey black
-tea and a lemon slice. And let's not forget the fabulous French 75 which pairs some nice bubbly with gin and a good
-squeeze of lemon.
+tea and a lemon slice. And let's not forget the fabulous French 75 which pairs some nice bubbly champagne with gin and
+a good squeeze of lemon.
 
 If you're aiming to impress, you can make the gorgeous Sparkling Elderflower with the Empress 1908. Add heavy splashes
 of lime and elderflower syrup, then top with tonic and a few mint leaves.

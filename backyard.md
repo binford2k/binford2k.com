@@ -29,9 +29,7 @@ Anyways, since we're procuring some top-shelf liquors here, we're asking for a $
   contribution to the cause, which will be your RSVP *(and if that's a burden, just let
 us know -- we don't want anyone to miss out on the ginXperience.)*
 
-***RSVP's close midnight on Jan. 15!***
-* Venmo: `@Kari-Fass` *(preferred)*
-* CashApp: `$karifass`
+[See the tasting notes](gin)
 
 
 ### Baby, it's dark outside dark beer tasting party: January 29, 6pm
