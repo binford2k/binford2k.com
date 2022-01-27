@@ -16,21 +16,6 @@ invited to bring your own to add to the collective.
 
 ## Upcoming Shenanigans
 
-### Ginuary: January 22, 6:45pm
-
-Gin, you say? Yes, gin. Did you know there's a whole flavour palate out there that's
-not just xmas trees? We'll have a few fancy-pantsy favorites here, along with some good
-old standbys and all the accoutrements for a whole variety of cocktails. Yes, there's
-more to gin than just a G&T! Sodas, tonics, berries, citrus, bubbly, other goodies.
-And plenty of space to experiment with all the flavors and create all the tiny-but-tasty
-cocktails you can imagine.
-
-Anyways, since we're procuring some top-shelf liquors here, we're asking for a $15
-  contribution to the cause, which will be your RSVP *(and if that's a burden, just let
-us know -- we don't want anyone to miss out on the ginXperience.)*
-
-[See the tasting notes](gin)
-
 
 ### Baby, it's dark outside dark beer tasting party: January 29, 6pm
 
