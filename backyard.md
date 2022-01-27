@@ -17,7 +17,7 @@ invited to bring your own to add to the collective.
 ## Upcoming Shenanigans
 
 
-### Baby, it's dark outside dark beer tasting party: January 29, 6pm
+### Baby, It's Dark Outside dark beer tasting party: January 29, 6pm
 
 About the only thing that I love more than a big bold dark beer is a whole
 taster tray full of big bold dark beers. So we're holding a dark beer tasting in
