@@ -17,17 +17,16 @@ invited to bring your own to add to the collective.
 ## Upcoming Shenanigans
 
 
-### Baby, It's Dark Outside dark beer tasting party: January 29, 6pm
+### Marshall Fire Benefit Concert: February 28, 6pm
 
-About the only thing that I love more than a big bold dark beer is a whole
-taster tray full of big bold dark beers. So we're holding a dark beer tasting in
-the backyard this winter. I've got a ton of delicious dark beers, some of which
-are really too much for one person to finish in a sitting. And I'd love to share
-it with other dark beer fanatics. Bring some of your own too, if you've got
-something exotic that you'd like to share. We've got plenty of taster cups to go
-around.<br>
-*Note: this really is about the beer. If you're not all that into the big heavy brews,
-this might not be the event for you. Ping me for details.*
+A coworker and friend lost her home to the devastating wildfires in Colorado. This
+concert proceeds (including service fees) will go directly to The Marshall Fire Benefit
+to support her and others in that unfortunate situation. The show will feature a ton of
+of artists, such as the Lumineers, Michael Franti, Lake Street Dive, a bunch of
+Colorado-based artists and more.
+
+We'll watch from the backyard, but if you'd like to contribute, you can [buy your own
+tickets for as little as $10](https://marshallfirebenefit.veeps.com/events/75be192f-339f-4bea-9b95-dc6a40786113).
 
 ### Repeating events
 * **Sunday Runday**: Would you like your weekends to have a few miles and then brunch with friends? Join the Sunday Runday brunch series at 10:30am . Now with free sticker! Check the calendar to see which days we run and RSVP so we know how much food to prepare!
