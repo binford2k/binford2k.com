@@ -27,7 +27,7 @@ that works with code management, such as the aforementioned Puppet Webhook Serve
 [Foreman](https://www.theforeman.org), the [Onceover](https://github.com/dylanratcliffe/onceover)
 testing framework, or even Puppet itself.
 
-Start off by reading the privacy alert in the [plugin docs](https://github.com/puppetlabs/dropsonde/blob/master/PLUGIN_API.md) (reproduced below).
+Start off by reading the privacy alert in the [plugin docs](https://github.com/puppetlabs/dropsonde/blob/main/PLUGIN_API.md) (reproduced below).
 You should skim that each time you start a new plugin, just to refresh your memory
 about what's acceptable. In our case, it reminds us not to reveal environment
 names themselves.
@@ -47,7 +47,7 @@ names themselves.
 > refresh your reading of this each time you write a new metric.
 
 Next, we'll create a new Ruby file in `lib/dropsonde/metrics/environments.rb` starting
-with the [skeleton example](https://github.com/puppetlabs/dropsonde/blob/master/PLUGIN_API.md#metric-plugin-skeleton)
+with the [skeleton example](https://github.com/puppetlabs/dropsonde/blob/main/PLUGIN_API.md#metric-plugin-skeleton)
 and adding a quick description of what we'll be gathering.
 
 ``` ruby
@@ -158,7 +158,7 @@ small number of trusted employees have access. The data is run through a weekly
 [aggregation job](https://github.com/puppetlabs/dropsonde-aggregation) that
 sanitizes and aggregates it into publicly queryable stats.
 
-![Data aggregation workflow](https://github.com/puppetlabs/dropsonde-aggregation/raw/master/aggregation.png)
+![Data aggregation workflow](https://github.com/puppetlabs/dropsonde-aggregation/raw/main/aggregation.png)
 
 To make it reasonable to develop the aggregation queries, metric plugins are
 expected to provide made-up representative data that's combined and saved as the

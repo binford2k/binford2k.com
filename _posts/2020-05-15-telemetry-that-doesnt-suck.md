@@ -83,7 +83,7 @@ module and classify your Puppet master with the `dropsonde` class. If you have
 multiple compile masters, just classify the primary master. This will install the
 tool and configure a weekly cron job to submit the reports.
 
-Then you can see what the different [metrics plugins](https://github.com/puppetlabs/dropsonde/blob/master/lib/dropsonde/metrics/)
+Then you can see what the different [metrics plugins](https://github.com/puppetlabs/dropsonde/blob/main/lib/dropsonde/metrics/)
 collect using the `list` subcommand. Any metrics plugin in this list may be
 blacklisted by adding it as a parameter to the `dropsonde` class.
 
