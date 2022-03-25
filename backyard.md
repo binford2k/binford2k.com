@@ -17,16 +17,28 @@ invited to bring your own to add to the collective.
 ## Upcoming Shenanigans
 
 
-### Marshall Fire Benefit Concert: February 28, 6pm
+### Spring Zoomies fun run! April 2, 9am
 
-A coworker and friend lost her home to the devastating wildfires in Colorado. This
-concert proceeds (including service fees) will go directly to The Marshall Fire Benefit
-to support her and others in that unfortunate situation. The show will feature a ton of
-of artists, such as the Lumineers, Michael Franti, Lake Street Dive, a bunch of
-Colorado-based artists and more.
+<img style="float: right; border: none;" src="/assets/images/SpringZoomies.png" />
 
-We'll watch from the backyard, but if you'd like to contribute, you can [buy your own
-tickets for as little as $10](https://marshallfirebenefit.veeps.com/events/75be192f-339f-4bea-9b95-dc6a40786113).
+Ruben knows all about cabin fever - and he shakes them off with a few good front
+yard zoomies! Come join his humans while they do their own zoomies around the
+neighborhood!
+
+Walk, bike, skate, scoot, run - you choose. We've got four 5k loops mapped out
+for you to pick your own distance; 5k, 10k, 15k, 20k!
+
+Semi-supported:
+* Four 5k loops with our house in the center.
+* Water and electrolytes available at the house.
+* The bathrooms at the house will be open!
+* Post run nibbles to include bananas, bagels, peanut butter, etc.
+
+<center>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSddNyeT0P-uoo6tlGJmv1ZsWFqcuyp2xlE9XYQRcahbBQvTEg/viewform" style="appearance: button; padding: 5px; margin: 10px;">Sign up!</a>
+<a href="https://fassford.myspreadshop.com/all" style="appearance: button; padding: 5px;  margin: 10px;">Check out the swag</a>
+</center>
+
 
 ### Repeating events
 * **Sunday Runday**: Would you like your weekends to have a few miles and then brunch with friends? Join the Sunday Runday brunch series at 10:30am . Now with free sticker! Check the calendar to see which days we run and RSVP so we know how much food to prepare!
