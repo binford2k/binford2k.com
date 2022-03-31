@@ -1,11 +1,7 @@
 ---
 layout: page
-title: Spring Zoomies! 2022
+title: Spring Zoomies! April 2, 2022
 ---
-
-<script>
-
-</script>
 
 <img style="float: right; border: none;" src="/assets/images/SpringZoomies.png" />
 
