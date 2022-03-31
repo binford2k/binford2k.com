@@ -1,7 +1,10 @@
 ---
 layout: page
-title: Spring Zoomies! April 2, 2022
+title: Spring Zoomies!
 ---
+
+April 2, 2022 @ 9am
+
 
 <img style="float: right; border: none;" src="/assets/images/SpringZoomies.png" />
 
