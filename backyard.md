@@ -28,16 +28,7 @@ neighborhood!
 Walk, bike, skate, scoot, run - you choose. We've got four 5k loops mapped out
 for you to pick your own distance; 5k, 10k, 15k, 20k!
 
-Semi-supported:
-* Four 5k loops with our house in the center.
-* Water and electrolytes available at the house.
-* The bathrooms at the house will be open!
-* Post run nibbles to include bananas, bagels, peanut butter, etc.
-
-<center>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSddNyeT0P-uoo6tlGJmv1ZsWFqcuyp2xlE9XYQRcahbBQvTEg/viewform" style="appearance: button; padding: 5px; margin: 10px;">Sign up!</a>
-<a href="https://fassford.myspreadshop.com/all" style="appearance: button; padding: 5px;  margin: 10px;">Check out the swag</a>
-</center>
+[Sign up, check out swag, and see the route(s)](zoomies)
 
 
 ### Repeating events
