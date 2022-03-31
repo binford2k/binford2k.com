@@ -37,7 +37,6 @@ function searchHandler() {
 
 $( document ).ready(function() {
 
-
   $("#newpost").on("click", function(e){
     e.preventDefault();
 
@@ -90,4 +89,5 @@ $( document ).ready(function() {
     holidays[currentMonth][currentDay]();
   }
 
+  $('a.lightbox').simpleLightbox();
 });
