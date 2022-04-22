@@ -17,23 +17,7 @@ invited to bring your own to add to the collective.
 ## Upcoming Shenanigans
 
 
-### Spring Zoomies fun run! April 2, 9am
-
-<img style="float: right; border: none;" src="/assets/images/SpringZoomies.png" />
-
-Ruben knows all about cabin fever - and he shakes them off with a few good front
-yard zoomies! Come join his humans while they do their own zoomies around the
-neighborhood!
-
-Walk, bike, skate, scoot, run - you choose. We've got four 5k loops mapped out
-for you to pick your own distance; 5k, 10k, 15k, 20k!
-
-[Sign up, check out swag, and see the route(s)](zoomies)
-
-
 ### Repeating events
-* **Sunday Runday**: Would you like your weekends to have a few miles and then brunch with friends? Join the Sunday Runday brunch series at 10:30am . Now with free sticker! Check the calendar to see which days we run and RSVP so we know how much food to prepare!
-  * [Sunday Runday Calendar](https://docs.google.com/spreadsheets/d/1vaZP-1-Cidej-ZpI9iUCag8tfy696miAw6JF9BaVmnc/edit?usp=sharing)
 * **Friday Movie Night**: Do your eyeballs need to feast on bad movies with good friends? Ok, they're not all bad, but I don't want to set your expectations too high. Stop by for our backyard movie nights any time you like. Showtime is near sunset, whenever it gets dark enough to see the screen.
   * [Movie Calendar](https://docs.google.com/spreadsheets/d/1dvS1hVPiwiNV6u1ZhoIPTQc-Wa7ub_-LjHFjCoU8Yeo/edit?usp=sharing)
 * **Tuesday Run Club**: Most Tuesdays we host Rose City Run Club. Show at 6pm, run at 6:15pm, then reconvene for a beer or three sometime around 6:45pm. See the Facebook group for the actual schedule.
