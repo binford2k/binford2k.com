@@ -16,6 +16,17 @@ invited to bring your own to add to the collective.
 
 ## Upcoming Shenanigans
 
+### Pride Prom! June 3
+
+ <img style="float: right; border: none;" src="/assets/images/pride_prom.jpg" />
+
+Driveway Dance Floor, Garage Photo Booth, Backyard Movie Theatre, Rainbows, & Chosen Family.
+Vaccinated friends and friends of friends only.
+
+Details TBD, but save the date.
+
+See the Facebook invite for more information.
+
 
 ### Repeating events
 * **Friday Movie Night**: Do your eyeballs need to feast on bad movies with good friends? Ok, they're not all bad, but I don't want to set your expectations too high. Stop by for our backyard movie nights any time you like. Showtime is near sunset, whenever it gets dark enough to see the screen.
