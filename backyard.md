@@ -20,7 +20,7 @@ invited to bring your own to add to the collective.
 ### Repeating events
 * **Friday Movie Night**: Do your eyeballs need to feast on bad movies with good friends? Ok, they're not all bad, but I don't want to set your expectations too high. Stop by for our backyard movie nights any time you like. Showtime is near sunset, whenever it gets dark enough to see the screen.
   * [Movie Calendar](https://docs.google.com/spreadsheets/d/1dvS1hVPiwiNV6u1ZhoIPTQc-Wa7ub_-LjHFjCoU8Yeo/edit?usp=sharing)
-* **Tuesday Run Club**: Most Tuesdays we host Rose City Run Club. Show at 6pm, run at 6:15pm, then reconvene for a beer or three sometime around 6:45pm. See the Facebook group for the actual schedule.
+* **Tuesday Run Club**: Most Tuesdays *Rose City Run Club is back at Apex bar!*🎉 But on cold, wet, dreary nights, or when the COVID cases are spiking, we run from the backyard. Show at 6pm, run at 6:15pm, then reconvene for a beer or three sometime around 6:45pm. See the Facebook group for the actual schedule.
   * [Rose City Run Club](https://www.facebook.com/groups/RoseCityRunClub)
 
 
@@ -40,10 +40,14 @@ a hug or anything else up close and personal. That's a hard
 limit.
 
 The bathroom is inside, down the stairs, and to the right. There are sanitizing
-supplies and you should wash your hands like the filthy beasts we all are. :)
+supplies and you should wash your hands like the filthy beasts we all are. 😆
 
 If we have a signup sheet, it's because we want to either provide the right
 amount of food, or because we don't want it to end up too crowded to respect
 social distancing. In either case, please update your RSVP if it changes!
 
 
+## Past events
+
+They may be done, but they'll live on in memories and new friendships. Check
+out some of the [past events](past) we've shared in the backyard!
