@@ -20,10 +20,17 @@ invited to bring your own to add to the collective.
 
  <img style="float: right; border: none;" src="/assets/images/pride_prom.jpg" />
 
-Driveway Dance Floor, Garage Photo Booth, Backyard Movie Theatre, Rainbows, & Chosen Family.
-Vaccinated friends and friends of friends only.
+Do you celebrate Pride month? We do! Come celebrate with us!
 
-Details TBD, but save the date.
+Driveway Dance Floor! 
+Garage Photo Booth! 
+Drag Race UK Showing! 
+Snacks! Rainbows! Chosen Family!
+
+- Dress up, dress down - you do you, boo!
+- The fridge will be full, but BYOB if there’s something specific you would like.
+- We’ll be outside, so dress for the weather. Maybe bring an extra camp chair or picnic blanket if that’s important to you.
+- Vaccinated friends and friends of friends only. (Yes, that means you can invite friends.)
 
 See the Facebook invite for more information.
 
