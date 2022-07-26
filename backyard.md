@@ -16,30 +16,12 @@ invited to bring your own to add to the collective.
 
 ## Upcoming Shenanigans
 
-### Pride Prom! June 3
-
- <img style="float: right; border: none;" src="/assets/images/pride_prom.jpg" />
-
-Do you celebrate Pride month? We do! Come celebrate with us!
-
-Driveway Dance Floor! 
-Garage Photo Booth! 
-Drag Race UK Showing! 
-Snacks! Rainbows! Chosen Family!
-
-- Dress up, dress down - you do you, boo!
-- The fridge will be full, but BYOB if there’s something specific you would like.
-- We’ll be outside, so dress for the weather. Maybe bring an extra camp chair or picnic blanket if that’s important to you.
-- Vaccinated friends and friends of friends only. (Yes, that means you can invite friends.)
-
-See the Facebook invite for more information.
-
 
 ### Repeating events
 * **Friday Movie Night**: Do your eyeballs need to feast on bad movies with good friends? Ok, they're not all bad, but I don't want to set your expectations too high. Stop by for our backyard movie nights any time you like. Showtime is near sunset, whenever it gets dark enough to see the screen.
   * [Movie Calendar](https://docs.google.com/spreadsheets/d/1dvS1hVPiwiNV6u1ZhoIPTQc-Wa7ub_-LjHFjCoU8Yeo/edit?usp=sharing)
-* **Tuesday Run Club**: Most Tuesdays *Rose City Run Club is back at Apex bar!*🎉 But on cold, wet, dreary nights, or when the COVID cases are spiking, we run from the backyard. Show at 6pm, run at 6:15pm, then reconvene for a beer or three sometime around 6:45pm. See the Facebook group for the actual schedule.
-  * [Rose City Run Club](https://www.facebook.com/groups/RoseCityRunClub)
+* **Tuesday Run Club**: *Rose City Run Club is back at Apex bar!*🎉 See the Facebook page for upcoming runs.
+  * [Rose City Run Club](https://www.facebook.com/RoseCityRun/events/)
 
 
 ## Backyard rules
