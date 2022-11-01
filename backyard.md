@@ -3,7 +3,7 @@ layout: page
 title: Backyard Shenanigans
 ---
 
-As we careen headlong into our second winter of COVID-19, one thing's radically
+As we careen headlong into our third winter of COVID-19, one thing's radically
 clear; _we need human contact to save our sanity_. We've built a little backyard
  oasis for the friends we're lucky enough to live by and we'd love if you'd come
 share it with us. Keep the weather in mind and dress appropriately. We do have
