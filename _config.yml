@@ -5,7 +5,7 @@ paginate: 3
 paginate_path: "/blog/page:num/"
 
 repo: https://github.com/binford2k/binford2k.com
-branch: master
+branch: main
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", 'vendor']
 highlighter: rouge
