@@ -82,7 +82,7 @@
                   <p>
                   {% for contact in site.contact %}
                     {% if contact %}
-                      <a class="icon" href="{{ contact.link }}"><i class="fa fa-{{ contact.icon }}" title="{{ contact.title }}"></i></a>
+                      <a class="icon" rel="me" href="{{ contact.link }}"><i class="fa fa-{{ contact.icon }}" title="{{ contact.title }}"></i></a>
                     {% else %}
                       |
                     {% endif %}
