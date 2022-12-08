@@ -82,7 +82,7 @@
                   <p>
                   {% for contact in site.contact %}
                     {% if contact %}
-                      <a class="icon" rel="me" href="{{ contact.link }}"><i class="fa fa-{{ contact.icon }}" title="{{ contact.title }}"></i></a>
+                      <a class="icon" rel="me" href="{{ contact.link }}"><i class="fa fa-brands fa-{{ contact.icon }}" title="{{ contact.title }}"></i></a>
                     {% else %}
                       |
                     {% endif %}
@@ -117,14 +117,9 @@
 
           <div class="tile is-child widget">
             <div class="card">
-              <header class="card-header">
-                <p class="card-header-title nice-title">
-                  Social
-                </p>
-              </header>
               <div class="card-content">
                 <div class="content nice-text">
-                  <iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="255" height="575" src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fhachyderm.io%2Fusers%2Fbinford2k&theme=light&size=100&header=false&replies=false&boosts=false"></iframe>
+                  <iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="255" height="575" src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fhachyderm.io%2Fusers%2Fbinford2k&theme=light&size=85&header=true&replies=false&boosts=false"></iframe>
                 </div>
               </div>
             </div>

@@ -29,9 +29,9 @@ contact:
   - name: LinkedIn
     icon: linkedin
     link: https://www.linkedin.com/in/binford2k
-  - name: Twitter
-    icon: twitter
-    link: https://twitter.com/binford2k
+  - name: Mastodon
+    icon: mastodon
+    link: http://hachyderm.io/@binford2k
   -
   - name: Puppet
     icon: puppet
