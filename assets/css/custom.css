@@ -78,6 +78,9 @@ h1.title > span {
 .card-content {
     padding: 0.5em 0 1em;
 }
+.card-content.filled {
+    padding: 0;
+}
 
 .fa-heart:hover {
     color: red;
