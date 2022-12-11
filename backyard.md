@@ -16,6 +16,15 @@ invited to bring your own to add to the collective.
 
 ## Upcoming Shenanigans
 
+## Nightmare Before Christmas
+**Friday, December 16 at 6:30pm**
+
+Halloween was so much fun and we realized that we needed another one!
+We'll have the movie playing like any other Friday, but will also have the garage open with mulled wine, grog, hot cocoa, and various other shenanigans.
+Show up any time after 5:30.
+
+*Note:* it's gonna be cold af, even with all the heaters roaring. Bundle up your delicate booties!
+
 
 ### Repeating events
 * **Friday Movie Night**: Do your eyeballs need to feast on bad movies with good friends? Ok, they're not all bad, but I don't want to set your expectations too high. Stop by for our backyard movie nights any time you like. Showtime is near sunset, whenever it gets dark enough to see the screen.
