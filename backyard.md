@@ -23,7 +23,10 @@ Halloween was so much fun and we realized that we needed another one!
 We'll have the movie playing like any other Friday, but will also have the garage open with mulled wine, grog, hot cocoa, and various other shenanigans.
 Show up any time after 5:30.
 
-*Note:* it's gonna be cold af, even with all the heaters roaring. Bundle up your delicate booties!
+Costumes are not expected, but always welcomed.
+We'll have light nibbles, but don't expect a full spread like the bigger parties.
+
+***Note:** it's gonna be cold af, even with all the heaters roaring. Bundle up your delicate booties!*
 
 
 ### Repeating events
