@@ -19,6 +19,7 @@ invited to bring your own to add to the collective.
 ## Nightmare Before Christmas
 **Friday, December 16 at 6:30pm**
 
+<img style="float: right; border: none;" src="/assets/images/skelly.jpeg" />
 Halloween was so much fun and we realized that we needed another one!
 We'll have the movie playing like any other Friday, but will also have the garage open with mulled wine, grog, hot cocoa, and various other shenanigans.
 Show up any time after 5:30.
