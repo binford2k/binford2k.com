@@ -16,18 +16,18 @@ invited to bring your own to add to the collective.
 
 ## Upcoming Shenanigans
 
-## Nightmare Before Christmas
-**Friday, December 16 at 6:30pm**
+### Baby, it's dark outside
+**Saturday, January 14 at 5:30pm**
 
-<img style="float: right; border: none;" src="/assets/images/skelly.jpeg" />
-Halloween was so much fun and we realized that we needed another one!
-We'll have the movie playing like any other Friday, but will also have the garage open with mulled wine, grog, hot cocoa, and various other shenanigans.
-Show up any time after 5:30.
-
-Costumes are not expected, but always welcomed.
-We'll have light nibbles, but don't expect a full spread like the bigger parties.
-
-***Note:** it's gonna be cold af, even with all the heaters roaring. Bundle up your delicate booties!*
+<img style="float: right; border: none;" src="/assets/images/Smoke-Stout-Porter.jpg" />
+About the only thing that I love more than a big bold dark beer is a whole
+taster tray full of big bold dark beers. So it's time for another dark beer tasting!
+I've got a bunch of delicious dark beers, some of which are really too much for one
+person to finish in a sitting. And I'd love to share it with other dark beer fanatics.
+Bring some of your own and share your exotic finds. We've got plenty of taster cups to
+go around.<br>
+*Note: this really is about the beer. If you're not all that into the big heavy brews,
+this might not be super fun for you. Ping me for details.*
 
 
 ### Repeating events
