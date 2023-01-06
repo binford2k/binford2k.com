@@ -17,7 +17,7 @@ invited to bring your own to add to the collective.
 ## Upcoming Shenanigans
 
 ### Baby, it's dark outside
-**Saturday, January 14 at 5:30pm**
+**Saturday, January 14 at 6:00pm**
 
 <img style="float: right; border: none;" src="/assets/images/Smoke-Stout-Porter.jpg" />
 About the only thing that I love more than a big bold dark beer is a whole
