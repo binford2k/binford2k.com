@@ -57,7 +57,7 @@ This makes relationships both super useful -- and also nearly transparent. They
 Just Work™️. But what if the `mysql` was defined as a couple of sub classes?
 Let's take a slight diversion for a moment and come back to this.
 
-Puppet also has the concept of `idempotence`, also a [big and scary word](zero/2015/10/17/idempotence/).
+Puppet also has the concept of `idempotence`, also a [big and scary word](/zero/2015/10/17/idempotence/).
 Basically, all it means is that if you assert something multiple times, then it should
 have the same effect as doing it once. If that behaviour cannot be guaranteed, then
 Puppet only allows it to be used once. (This, by the way, is one of the reasons that
