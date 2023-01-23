@@ -198,7 +198,7 @@ class container {
 
 [Load the validator](https://validate.puppet.com/load/https://gist.github.com/binford2k/a4fff4cd29fab2176478f6c125f63ce4)
 
-As you can see, adding that bookmark relationship, `User['alison'] -> Class['contained'] -> User['tyrone']`,
+As you can see, adding those bookend relationships, `User['alison'] -> Class['contained'] -> User['tyrone']`,
 effectively trapped or contained the other class and now you can expect relationships
 on the container class to just work.
 
