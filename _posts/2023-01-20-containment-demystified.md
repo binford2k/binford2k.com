@@ -3,7 +3,7 @@ layout: post
 title: "Puppet Containment Demystified"
 summary: "Anchors, containment, graphs, oh my. For years, containment has been a mystical art and many modules either under-contain or over-contain, both of which can lead to surprising and unexpected runtime failures. Read this post to find out what's going on behind the scenes and better understand how to contain effectively."
 image: containment/hobbitses.jpeg
-category: puppet
+category:
 tags: [puppet, containment, development, modules, language]
 ---
 
@@ -53,7 +53,6 @@ and pressing the `Show relationships` button.
 
 <img style="margin: 0 auto; display: block; border: none; width: 400px;" src="/assets/images/containment/one.svg" />
 
-<i class="fa-sharp fa-solid fa-location-check"></i>
 This makes relationships both super useful -- and also nearly transparent. They
 Just Work™️. But what if the `mysql` was defined as a couple of sub classes?
 Let's take a slight diversion for a moment and come back to this.
