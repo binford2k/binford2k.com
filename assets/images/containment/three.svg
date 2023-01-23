@@ -1,0 +1,91 @@
+<svg width="477pt" height="211pt" viewBox="0.00 0.00 476.50 211.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 207)">
+<title>Puppet__Graph__RelationshipGraph</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-207 472.5,-207 472.5,4 -4,4"></polygon>
+<text text-anchor="middle" x="234.25" y="-7.8" font-family="Times,serif" font-size="14.00">Resource Relationships</text>
+<!-- User[alison] -->
+<g id="node1" class="node">
+<title>User[alison]</title>
+<ellipse fill="cyan" stroke="cyan" cx="36.3" cy="-113" rx="36.11" ry="18"></ellipse>
+<text text-anchor="middle" x="36.3" y="-111.1" font-family="Times,serif" font-size="8.00">User[alison]</text>
+</g>
+<!-- Whit[Completed_class[Container]] -->
+<g id="node2" class="node">
+<title>Whit[Completed_class[Container]]</title>
+<ellipse fill="none" stroke="black" cx="82.3" cy="-41" rx="68.77" ry="18"></ellipse>
+<text text-anchor="middle" x="82.3" y="-39.1" font-family="Times,serif" font-size="8.00">Finishing Class[Container]</text>
+</g>
+<!-- User[alison]&#45;&gt;Whit[Completed_class[Container]] -->
+<g id="edge1" class="edge">
+<title>User[alison]-&gt;Whit[Completed_class[Container]]</title>
+<path fill="none" stroke="black" d="M46.97,-95.76C52.44,-87.44 59.23,-77.1 65.4,-67.73"></path>
+<polygon fill="black" stroke="black" points="68.48,-69.4 71.05,-59.12 62.63,-65.56 68.48,-69.4"></polygon>
+</g>
+<!-- User[tyrone] -->
+<g id="node3" class="node">
+<title>User[tyrone]</title>
+<ellipse fill="cyan" stroke="cyan" cx="128.3" cy="-113" rx="38.01" ry="18"></ellipse>
+<text text-anchor="middle" x="128.3" y="-111.1" font-family="Times,serif" font-size="8.00">User[tyrone]</text>
+</g>
+<!-- User[tyrone]&#45;&gt;Whit[Completed_class[Container]] -->
+<g id="edge2" class="edge">
+<title>User[tyrone]-&gt;Whit[Completed_class[Container]]</title>
+<path fill="none" stroke="black" d="M117.4,-95.41C111.92,-87.08 105.17,-76.8 99.05,-67.49"></path>
+<polygon fill="black" stroke="black" points="101.86,-65.39 93.45,-58.96 96.01,-69.24 101.86,-65.39"></polygon>
+</g>
+<!-- Whit[Admissible_class[Main]] -->
+<g id="node4" class="node">
+<title>Whit[Admissible_class[Main]]</title>
+<ellipse fill="none" stroke="black" cx="254.3" cy="-185" rx="55.68" ry="18"></ellipse>
+<text text-anchor="middle" x="254.3" y="-183.1" font-family="Times,serif" font-size="8.00">Starting Class[Main]</text>
+</g>
+<!-- Whit[Completed_class[Main]] -->
+<g id="node5" class="node">
+<title>Whit[Completed_class[Main]]</title>
+<ellipse fill="none" stroke="black" cx="254.3" cy="-113" rx="57.71" ry="18"></ellipse>
+<text text-anchor="middle" x="254.3" y="-111.1" font-family="Times,serif" font-size="8.00">Finishing Class[Main]</text>
+</g>
+<!-- Whit[Admissible_class[Main]]&#45;&gt;Whit[Completed_class[Main]] -->
+<g id="edge3" class="edge">
+<title>Whit[Admissible_class[Main]]-&gt;Whit[Completed_class[Main]]</title>
+<path fill="none" stroke="black" d="M254.3,-166.7C254.3,-158.98 254.3,-149.71 254.3,-141.11"></path>
+<polygon fill="black" stroke="black" points="257.8,-141.1 254.3,-131.1 250.8,-141.1 257.8,-141.1"></polygon>
+</g>
+<!-- Whit[Admissible_class[Container]] -->
+<g id="node6" class="node">
+<title>Whit[Admissible_class[Container]]</title>
+<ellipse fill="none" stroke="black" cx="76.3" cy="-185" rx="65.6" ry="18"></ellipse>
+<text text-anchor="middle" x="76.3" y="-183.1" font-family="Times,serif" font-size="8.00">Starting Class[Container]</text>
+</g>
+<!-- Whit[Admissible_class[Container]]&#45;&gt;User[alison] -->
+<g id="edge4" class="edge">
+<title>Whit[Admissible_class[Container]]-&gt;User[alison]</title>
+<path fill="none" stroke="black" d="M66.62,-167.05C61.9,-158.8 56.13,-148.7 50.9,-139.54"></path>
+<polygon fill="black" stroke="black" points="53.9,-137.73 45.9,-130.79 47.82,-141.21 53.9,-137.73"></polygon>
+</g>
+<!-- Whit[Admissible_class[Container]]&#45;&gt;User[tyrone] -->
+<g id="edge5" class="edge">
+<title>Whit[Admissible_class[Container]]-&gt;User[tyrone]</title>
+<path fill="none" stroke="black" d="M88.89,-167.05C95.24,-158.5 103.06,-147.97 110.06,-138.56"></path>
+<polygon fill="black" stroke="black" points="113.04,-140.42 116.19,-130.31 107.42,-136.25 113.04,-140.42"></polygon>
+</g>
+<!-- Whit[Admissible_class[Contained]] -->
+<g id="node7" class="node">
+<title>Whit[Admissible_class[Contained]]</title>
+<ellipse fill="red" stroke="red" cx="399.3" cy="-185" rx="66.87" ry="18"></ellipse>
+<text text-anchor="middle" x="399.3" y="-183.1" font-family="Times,serif" font-size="8.00">Starting Class[Contained]</text>
+</g>
+<!-- Whit[Completed_class[Contained]] -->
+<g id="node8" class="node">
+<title>Whit[Completed_class[Contained]]</title>
+<ellipse fill="red" stroke="red" cx="399.3" cy="-113" rx="69.4" ry="18"></ellipse>
+<text text-anchor="middle" x="399.3" y="-111.1" font-family="Times,serif" font-size="8.00">Finishing Class[Contained]</text>
+</g>
+<!-- Whit[Admissible_class[Contained]]&#45;&gt;Whit[Completed_class[Contained]] -->
+<g id="edge6" class="edge">
+<title>Whit[Admissible_class[Contained]]-&gt;Whit[Completed_class[Contained]]</title>
+<path fill="none" stroke="red" d="M399.3,-166.7C399.3,-158.98 399.3,-149.71 399.3,-141.11"></path>
+<polygon fill="red" stroke="red" points="402.8,-141.1 399.3,-131.1 395.8,-141.1 402.8,-141.1"></polygon>
+</g>
+</g>
+</svg>
