@@ -103,7 +103,7 @@ h1.title > span {
 .post-image {
   float: left;
   padding: 0.25em;
-  margin: 0 1em 1em 0;
+  margin: 0 1em 0.5em 0;
   border: 1px solid #ccc;
   border-radius: 0.25em;
   max-height: 205px;
