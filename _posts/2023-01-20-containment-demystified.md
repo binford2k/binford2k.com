@@ -149,7 +149,7 @@ going to be needed.
 
 This means that if you're writing a class and you include another class, you should
 be aware of whether ordering relationships expressed on your class should also apply
-to the classes you contain. If so, then you need to intentionally specify those
+to the classes you include. If so, then you need to intentionally specify those
 relationships by _containing_ the class yourself. This, of course, isn't magically
 transitive. Any classes you contain should in turn contain any classes that they
 require to to be ordered.
