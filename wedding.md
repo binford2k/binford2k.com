@@ -29,7 +29,7 @@ Vaccinations are expected of all guests. If you aren’t feeling well and need t
 We are a very, very, very liberal couple. We know not everyone in our circle sees the world through the same lenses.  We ask that all attending take great care to treat everyone in our chosen family with kindness and respect.
 
 <ul class="tag_box inline cloud-tags">
-  <li><a href="https://docs.google.com/forms/d/1UY7YAtdzOPv-yUMC3o8xNbh2mz6D_7hrkLwtEeV2lWQ" style="background-color: rgb(0, 198, 255);"><i class="fa fa-pen-to-square"></i>RSVP HERE BY MAY 5</a></li>
+  <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeLoiLlCYMARuu2xa-qwGfoJCgyZIL0i6p5g0M9uyJapRIdyA/viewform" style="background-color: rgb(0, 198, 255);"><i class="fa fa-pen-to-square"></i>RSVP HERE BY MAY 5</a></li>
 </ul>
 
 ![us being goobers](/assets/images/wedding.jpeg)
