@@ -3,16 +3,33 @@ layout: page
 title: Wedding Update Center
 ---
 
-We've been partnered for over a decade now and maybe it's time to hold a ceremony
-to celebrate that. And it will be the biggest damn party we ever did throw!
+<style>
+  .content {
+    text-align: center;
+  }
+</style>
 
-You can come for the ceremony, the reception, or the whole darn weekend.
+It’s the biggest damn party we ever did throw!
 
-Please help us make sure you get all the information you need by updating contact
-information for us. And check back here as we post updates.
+Please, join us for our vows!
+
+Saturday, June 24, 2023<br />
+2:15pm until late<br />
+Ceremony to begin at 3:00pm<br />
+Outdoors at our home in NE Portland<br />
+Dinner and merriment to follow<br />
+
+Dress as you feel best, but also dress for the weather.<br />
+RSVPs requested by May 5
+
+If you are traveling from outside Portland, we’d love to have you join us for a casual happy hour on Friday night too!
+
+Vaccinations are expected of all guests. If you aren’t feeling well and need to decline the invite at the last minute, we appreciate your thoughtfulness.
+
+We are a very, very, very liberal couple. We know not everyone in our circle sees the world through the same lenses.  We ask that all attending take great care to treat everyone in our chosen family with kindness and respect.
 
 <ul class="tag_box inline cloud-tags">
-  <li><a href="https://docs.google.com/forms/d/1UY7YAtdzOPv-yUMC3o8xNbh2mz6D_7hrkLwtEeV2lWQ" style="background-color: rgb(0, 198, 255);"><i class="fa fa-pen-to-square"></i>Click to Update</a></li>
+  <li><a href="https://docs.google.com/forms/d/1UY7YAtdzOPv-yUMC3o8xNbh2mz6D_7hrkLwtEeV2lWQ" style="background-color: rgb(0, 198, 255);"><i class="fa fa-pen-to-square"></i>RSVP HERE BY MAY 5</a></li>
 </ul>
 
-![us hanging out in the backyard](/assets/images/wedding.jpeg)
+![us being goobers](/assets/images/wedding.jpeg)
