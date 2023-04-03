@@ -4,7 +4,7 @@ title: Wedding Update Center
 ---
 
 <style>
-  .content {
+  .main .content {
     text-align: center;
   }
 </style>
