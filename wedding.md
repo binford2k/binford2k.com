@@ -19,7 +19,7 @@ Ceremony to begin at 3:00pm<br />
 Outdoors at our home in NE Portland<br />
 Dinner and merriment to follow<br />
 
-Dress as you feel best, but also dress for the weather.<br />
+Dress as you feel best, but also [dress for the weather](https://www.wunderground.com/calendar/us/or/portland/KPDX/date/2023-6).<br />
 RSVPs requested by May 5
 
 If you are traveling from outside Portland, we’d love to have you join us for a casual happy hour on Friday night too!
