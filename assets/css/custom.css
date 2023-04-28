@@ -178,7 +178,7 @@ h1.title > span {
 
 .post-text blockquote p:first-child:before,
 .post-text blockquote p:last-child:after {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 6 Free";
 }
 
 .post-text blockquote p:first-child:before {
