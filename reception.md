@@ -19,7 +19,9 @@ Outdoors at our home in NE Portland<br />
 Bar service til 8:30pm and our beer/bev fridge after that<br />
 
 Dress as you feel best, but also [dress for the weather](https://www.wunderground.com/calendar/us/or/portland/KPDX/date/2023-6).<br />
-Reception RSVPs requested by June 9.
+<ul class="tag_box inline cloud-tags">
+  <li><a href="https://forms.gle/CJAT7GVUXhbFPCzv7" style="background-color: rgb(0, 198, 255);"><i class="fa fa-pen-to-square"></i>Reception RSVPs requested by June 9</a></li>
+</ul>
 
 Community means so much to us that we couldn’t possibly fit all the love into just one event. Our vows will take place earlier in the day and we’re thrilled to continue the celebration with you well into the night.
 
