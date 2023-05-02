@@ -31,4 +31,4 @@ Vaccinations are expected of all guests. If you aren’t feeling well and need t
 We are a very, very, very liberal couple. We know not everyone in our circle sees the world through the same lenses. We ask that all attending take great care to treat everyone in our chosen family with kindness and respect.
 
 
-![us being goobers](assets/images/loveandringsgoobers.JPG)
+![us being goobers](/assets/images/loveandringsgoobers.JPG)
