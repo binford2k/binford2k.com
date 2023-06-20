@@ -17,9 +17,11 @@ Bar service til 8:30pm and our beer/bev fridge after that<br />
 
 Thank you for joining the celebration of our love! Community means so much to us that we couldn’t possibly fit all the love into just one event. Our vows will take place earlier in the day and we’re thrilled to continue the celebration with you well into the night.  It’s going to be a really great day!  
 
-* Bring your close-toed shoes: the Celtic Axe Throwers truck is bringing the games (for peeps 13+)! (6pm)<br />
-* Warm up your belly laughs: Filbert Improv is sharing their joy! (7:45pm)<br />
-* Raise your glass: share in our joy with some open toasting time! (8:30pm)<br />
+| time   |                                                                                                   |
+|--------|---------------------------------------------------------------------------------------------------|
+| 6:00pm | Bring your close-toed shoes: the Celtic Axe Throwers truck is bringing the games (for peeps 13+)! |
+| 7:45pm | Warm up your belly laughs: Filbert Improv is sharing their joy!                                   |
+| 8:30pm | Raise your glass: share in our joy with some open toasting time!                                  |
 
 There’ll be snacks from Khao Niew, an open bar, a photobooth, yard games, and our house beverage fridge. 
 
