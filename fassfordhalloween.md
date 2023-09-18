@@ -14,8 +14,8 @@ October 28, 2023<br />
 4pm-11pm<br />
 5709 NE Wygant, Portland, OR 97218<br />
 
-[Collaborative playlist on Spotify](https://open.spotify.com/playlist/30pVYbqNnCFwjzEiOeJCLC)
-[Photobooth photos at SmugMug](https://artyms.smugmug.com/Halloween-Parties)
+[Collaborative playlist on Spotify](https://open.spotify.com/playlist/30pVYbqNnCFwjzEiOeJCLC)<br />
+[Photobooth photos at SmugMug](https://artyms.smugmug.com/Halloween-Parties)<br />
 
 Appetizers will be served; bring a dish to pass if it makes you happy.<br />
 We'll have some bevs on hand, but please BYOB.<br />
