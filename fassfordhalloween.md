@@ -3,16 +3,6 @@ layout: page
 title: Fass Ford Halloween
 ---
 
-<style>
-  .main .content {
-    text-align: center;
-  }
-  .main .content ul {
-    text-align: left;
-  }
-
-</style>
-
 It's the tenth annual Fass-Ford Halloween Shin Dig!<br />
 October 28, 2023<br />
 4pm-11pm<br />
