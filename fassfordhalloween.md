@@ -7,6 +7,10 @@ title: Fass Ford Halloween
   .main .content {
     text-align: center;
   }
+  .main .content ul {
+    text-align: left;
+  }
+
 </style>
 
 It's the tenth annual Fass-Ford Halloween Shin Dig!<br />
