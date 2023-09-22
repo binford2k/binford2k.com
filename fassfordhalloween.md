@@ -25,4 +25,4 @@ October 28, 2023<br />
 As always, feel free to bring guests! We're terrible at getting invites where they should be, so add peeps as you see fit!<br />
 
 
-![Photobooth 2022](/assets/images/HalloweenPhotobooth2022.jpg)
+![Photobooth 2022](/assets/images/HalloweenPhotobooth2022.JPG)
