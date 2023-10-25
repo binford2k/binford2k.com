@@ -8,9 +8,9 @@ October 28, 2023<br />
 4pm-11pm<br />
 5709 NE Wygant, Portland, OR 97218<br />
 
-Many of you know we've had a rough week: our sweet buddy Ruby passed unexpectedly Monday night.  But if you knew Ruben, you know yard parties were some of his favorite things.<br />
-Your mission, should you choose to accept it, is to come spoil Jingle rotten. <br />
-We'll roll back the food menu a little bit (focusing on a yummy baked potato bar), so if you feel inclined to bring a dish to share, it would be appreciated. <br />
+|Update|
+|-|
+| Many of you know we've had a rough week: our sweet buddy Ruby passed unexpectedly Monday night.  But if you knew Ruben, you know yard parties were some of his favorite things.<br /><br />Your mission, should you choose to accept it, is to come spoil Jingle rotten.<br />That's right. We mean cookies. 🍪🍪🍪<br /><br />We'll roll back the food menu a little bit (focusing on a yummy baked potato bar), so if you feel inclined to bring a dish to share, it would be appreciated. |
 
 [Collaborative playlist on Spotify](https://open.spotify.com/playlist/30pVYbqNnCFwjzEiOeJCLC)<br />
 [Photobooth photos at SmugMug](https://artyms.smugmug.com/Halloween-Parties/n-fmBJT6)<br />
