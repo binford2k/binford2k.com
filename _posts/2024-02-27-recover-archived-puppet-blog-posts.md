@@ -12,7 +12,7 @@ an industry analysis, a user interview, a technical post. And it never deleted c
 linking to blog posts to use as reference or documentation.
 
 This was really great in a lot of ways, but it came with its downsides. Outdated content didn't always get updated
-expediently and the amount of content just kep growing so there really wasn't a good way to manage updates. Only the
+expediently and the amount of content just kept growing so there really wasn't a good way to manage updates. Only the
 content that was actively noticed and complained about was updated. So links across the web often pointed to old and
 outdated content....
 
