@@ -29,7 +29,7 @@ archive located at https://prod-puppet-blog.netlify.app/blog/.
 
 I've created a shortcut a method for retrieving pages from the archive if you have the URL.
 
-1. First drag <a href="javascript:(function(){let url=window.prompt(‘Enter the old Puppet blog URL’, ‘https://puppet.com/blog/…’);window.location.href=url.replace(‘puppet.com’,’prod-puppet-blog.netlify.app'));})()">this link</a> to your bookmarks folder and give it a reasonable name like "retrieve archived Puppet blog posts."
+1. First drag <a href="javascript:(function(){let url=window.prompt('Enter the old Puppet blog URL','https://puppet.com/blog/…');window.location.href=url.replace('puppet.com','prod-puppet-blog.netlify.app'));})()">this link</a> to your bookmarks folder and give it a reasonable name like "retrieve archived Puppet blog posts."
 2. Then when you see a link that leads to an archived post that you'd like to recover right click and copy it.
 3. Click the bookmark and paste the URL into the dialog you see.
 
