@@ -109,6 +109,10 @@ h1.title > span {
   max-height: 205px;
   max-width: 205px;
 }
+.post-image img {
+  max-width: 159px;
+  max-height: 196px;
+}
 
 .post-source {
   float: right;
