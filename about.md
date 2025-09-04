@@ -31,6 +31,6 @@ down to the half-marathon distance!
 
 * GPG Key Fingerprint
     * `6136 2889 1981 1C2B 77C6  0BF6 2C04 4286 5920 8F1B`
-    * https://keys.openpgp.org/vks/v1/by-fingerprint/6136288919811C2B77C60BF62C04428659208F1B
+    * [Download from OpenPGP keyserver](https://keys.openpgp.org/vks/v1/by-fingerprint/6136288919811C2B77C60BF62C04428659208F1B)
 * Apple Contact Key Verification Code
     * `APKTID06u_dbSM2USHVxw1U4Z1sd1F6hDBq85RtPVZbuW7umSZew`
